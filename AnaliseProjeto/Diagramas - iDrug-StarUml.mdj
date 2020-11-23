@@ -30572,7 +30572,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Usuario",
+					"name": "tbUsuario",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -38226,7 +38226,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Medicamento",
+					"name": "tbMedicamento",
 					"stereotype": {
 						"$ref": "AAAAAAFFJsYgDTM+Z6E="
 					},
@@ -40920,7 +40920,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "CategoriaMedicamento",
+					"name": "tbCategoriaMedicamento",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -51472,7 +51472,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "SolicitacaoMedicamento",
+					"name": "tbSolicitacaoMedicamento",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociationClassLink",
@@ -57102,7 +57102,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "MedicamentoDisponivel",
+					"name": "tbMedicamentoDisponivel",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociationClassLink",
@@ -59364,7 +59364,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Farmácia",
+					"name": "tbFarmacia",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -74729,7 +74729,7 @@
 											"top": 420,
 											"width": 110.9189453125,
 											"height": 13,
-											"text": "Usuario"
+											"text": "tbUsuario"
 										},
 										{
 											"_type": "LabelView",
@@ -75132,7 +75132,7 @@
 											"top": 972,
 											"width": 152.4580078125,
 											"height": 13,
-											"text": "Medicamento"
+											"text": "tbMedicamento"
 										},
 										{
 											"_type": "LabelView",
@@ -75452,7 +75452,7 @@
 											"top": 652,
 											"width": 172.6943359375,
 											"height": 13,
-											"text": "SolicitacaoMedicamento"
+											"text": "tbSolicitacaoMedicamento"
 										},
 										{
 											"_type": "LabelView",
@@ -75701,7 +75701,7 @@
 											"top": 756,
 											"width": 222.17431640625,
 											"height": 13,
-											"text": "MedicamentoDisponivel"
+											"text": "tbMedicamentoDisponivel"
 										},
 										{
 											"_type": "LabelView",
@@ -76023,7 +76023,7 @@
 											"top": 452,
 											"width": 128.59716796875,
 											"height": 13,
-											"text": "Farmácia"
+											"text": "tbFarmacia"
 										},
 										{
 											"_type": "LabelView",
@@ -76394,7 +76394,7 @@
 											"top": 1004,
 											"width": 253.97607421875,
 											"height": 13,
-											"text": "CategoriaMedicamento"
+											"text": "tbCategoriaMedicamento"
 										},
 										{
 											"_type": "LabelView",
