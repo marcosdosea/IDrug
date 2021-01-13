@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\iDrug\\iDrug\\iDrug.csproj",
+      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug-main\\Codigo\\iDrug\\iDrug.csproj",
       "projectName": "iDrug",
-      "projectPath": "C:\\Users\\Henrique\\Desktop\\iDrug\\iDrug\\iDrug.csproj",
+      "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug-main\\Codigo\\iDrug\\iDrug.csproj",
       "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique\\Desktop\\iDrug\\iDrug\\obj\\",
+      "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug-main\\Codigo\\iDrug\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
