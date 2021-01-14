@@ -1,0 +1,41 @@
+﻿@model IEnumerable<IdrugWeb.Models.MedicamentoModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IdMedicamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdMedicamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.IdMedicamento }) |
+                @Html.ActionLink("Details", "Details", new { id=item.IdMedicamento }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.IdMedicamento })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
