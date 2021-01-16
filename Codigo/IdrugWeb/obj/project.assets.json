@@ -8137,11 +8137,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\Idrug\\IdrugWeb\\IdrugWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
       "projectName": "IdrugWeb",
-      "projectPath": "C:\\Users\\Henrique\\Desktop\\Idrug\\IdrugWeb\\IdrugWeb.csproj",
+      "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
       "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique\\Desktop\\Idrug\\IdrugWeb\\obj\\",
+      "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8158,11 +8158,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Henrique\\Desktop\\Idrug\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Henrique\\Desktop\\Idrug\\Core\\Core.csproj"
+            "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj"
             },
-            "C:\\Users\\Henrique\\Desktop\\Idrug\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\Henrique\\Desktop\\Idrug\\Service\\Service.csproj"
+            "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj"
             }
           }
         }
@@ -8210,7 +8210,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

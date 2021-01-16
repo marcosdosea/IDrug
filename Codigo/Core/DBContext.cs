@@ -15,6 +15,7 @@ namespace Core
         {
         }
 
+        public virtual DbSet<Categoriamedicamento> Categoriamedicamento { get; set; }
         public virtual DbSet<Farmacia> Farmacia { get; set; }
         public virtual DbSet<Medicamento> Medicamento { get; set; }
         public virtual DbSet<Medicamentodisponivel> Medicamentodisponivel { get; set; }
@@ -23,15 +24,37 @@ namespace Core
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //if (!optionsBuilder.IsConfigured)
-          //{
-// #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-             //   optionsBuilder.UseMySQL("server=localhost;port=3306;user=root;password=Idrug@123456;database=BD_IDRUG");
-            //}
+            if (!optionsBuilder.IsConfigured)
+            {
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseMySQL("server=localhost;port=3306;user=root;password=Idrug@123456;database=BD_IDRUG");
+            }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Categoriamedicamento>(entity =>
+            {
+                entity.HasKey(e => e.IdCategoriaMedicamento)
+                    .HasName("PRIMARY");
+
+                entity.ToTable("categoriamedicamento");
+
+                entity.HasIndex(e => e.IdCategoriaMedicamento)
+                    .HasName("idCategoriaMedicamento_UNIQUE")
+                    .IsUnique();
+
+                entity.Property(e => e.IdCategoriaMedicamento)
+                    .HasColumnName("idCategoriaMedicamento")
+                    .HasColumnType("int unsigned");
+
+                entity.Property(e => e.NomeCategoria)
+                    .IsRequired()
+                    .HasColumnName("nomeCategoria")
+                    .HasMaxLength(60)
+                    .IsUnicode(false);
+            });
+
             modelBuilder.Entity<Farmacia>(entity =>
             {
                 entity.HasKey(e => e.IdFarmacia)
@@ -139,6 +162,12 @@ namespace Core
                     .HasColumnName("nome")
                     .HasMaxLength(60)
                     .IsUnicode(false);
+
+                entity.HasOne(d => d.IdCategoriaMedicamentoNavigation)
+                    .WithMany(p => p.Medicamento)
+                    .HasForeignKey(d => d.IdCategoriaMedicamento)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("idCategoriaMedicamento");
             });
 
             modelBuilder.Entity<Medicamentodisponivel>(entity =>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mewpJLnFyFXCFwHcpUok4joGcbERquNzJrNDNY1B5VQk2IoWUepDUC4fshVxHXst4bvijh4IQT3fSRWcvIaMbA==",
+  "dgSpecHash": "7ANHlHJRr4LUk0VShc+hFnkSUnDXz7mEuUJLatz7FRcG0qcqn0xwJ8/lK050rVQjV7v3JiJFpx0Ii/c1yEtNPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\Idrug\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Henrique\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
@@ -124,8 +124,7 @@
     "C:\\Users\\Henrique\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\Henrique\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\Henrique\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\Henrique\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\Henrique\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }
