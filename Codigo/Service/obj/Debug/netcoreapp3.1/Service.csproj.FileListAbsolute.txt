@@ -13,3 +13,33 @@ C:\Users\Henrique\Desktop\Idrug\Service\obj\Debug\netcoreapp3.1\Service.csproj.C
 C:\Users\Henrique\Desktop\Idrug\Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\Henrique\Desktop\Idrug\Service\obj\Debug\netcoreapp3.1\Service.pdb
 C:\Users\Henrique\Desktop\Idrug\Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.json
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.dev.json
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.json
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.dev.json
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\Henrique\Documents\Projeto Engenharia\V2\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache

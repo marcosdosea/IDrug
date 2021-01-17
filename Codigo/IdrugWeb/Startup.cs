@@ -38,6 +38,10 @@ namespace IdrugWeb
             services.AddTransient<IMedicamentoService, MedicamentoService>();
 
 
+            // injeção dependência Services
+            services.AddTransient<ICategoriaMedicamentoService, CategoriaMedicamentoService>();
+
+
             // injeção dependÊncia mappers
             services.AddAutoMapper(typeof(Startup).Assembly);
 

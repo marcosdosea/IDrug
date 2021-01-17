@@ -11,5 +11,8 @@ namespace Core.DTO
         public string Fabricante { get; set; }
 
         public string CodigoBarras { get; set; }
+
+
+        
     }
 }

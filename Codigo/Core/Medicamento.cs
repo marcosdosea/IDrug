@@ -16,6 +16,7 @@ namespace Core
         public string Nome { get; set; }
         public string Fabricante { get; set; }
 
+        public virtual Categoriamedicamento IdCategoriaMedicamentoNavigation { get; set; }
         public virtual ICollection<Medicamentodisponivel> Medicamentodisponivel { get; set; }
     }
 }

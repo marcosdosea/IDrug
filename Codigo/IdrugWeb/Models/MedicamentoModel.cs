@@ -22,7 +22,6 @@ namespace IdrugWeb.Models
 
         public string Fabricante { get; set; }
 
-
-
+     
     }
 }
