@@ -57,6 +57,25 @@ namespace IdrugWeb.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public ActionResult CreateSolicitacaoFarmacia()
+        {
+            return View();
+        }
+
+        // POST: FarmaciaController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CreateSolicitacaoFarmacia(FarmaciaModel farmaciaModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var farmacia = _mapper.Map<Farmacia>(farmaciaModel);
+                _farmaciaService.Inserir(farmacia);
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
         // GET: FarmaciaController/Edit/5
         public ActionResult Edit(int id)
         {
