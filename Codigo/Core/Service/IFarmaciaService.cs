@@ -13,6 +13,8 @@ namespace Core.Service
 
         public void Editar(Farmacia farmacia);
 
+        public void Remover(int idFarmacia);
+
         public int InserirUsuario(Usuario usuario);
 
         IEnumerable<Farmacia> ObterPorNome(string nome);

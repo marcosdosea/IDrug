@@ -51,5 +51,15 @@ namespace Service
             _context.Usuario.Remove(_usuario);
             _context.SaveChanges();
         }
+
+        public IEnumerable<Usuario> ObterPorNome(string nome)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Usuario> ObterTodos()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

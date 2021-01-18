@@ -55,3 +55,27 @@ C:\Users\Rafael\Downloads\IDrug-main (2)\IDrug-main\Codigo\Core\obj\Debug\netcor
 C:\Users\Rafael\Downloads\IDrug-main (2)\IDrug-main\Codigo\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\Rafael\Downloads\IDrug-main (2)\IDrug-main\Codigo\Core\obj\Debug\netcoreapp3.1\Core.pdb
 C:\Users\Rafael\Downloads\IDrug-main (2)\IDrug-main\Codigo\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\isacs\Desktop\Versão 2.1\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
