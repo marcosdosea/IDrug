@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {}
+    "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {
+    "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
         "projectName": "IdrugWeb",
-        "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\IdrugWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,11 +94,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj"
               },
-              "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Service\\Service.csproj"
+              "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Service\\Service.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Service\\Service.csproj": {
+    "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Service\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -174,8 +174,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj"
               }
             }
           }

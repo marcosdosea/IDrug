@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tV1B084QNrWacRBQ/gbZE0bXTb/prxJ/CXUn8+/zuim/OwFOCd0k9kWX6xhDIjk9IpaCUcRQS6lnQ1bRtW64mg==",
+  "dgSpecHash": "N7PyEGZafpI7K65S1qhuYoeRSPQOUyY9yoRgecYHk1TLEHNWEc4hvHCarA5WHaopJCNvnjdqzgIwl8hS9ZSxbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

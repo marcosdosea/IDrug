@@ -6524,11 +6524,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main\\IDrug-main\\Codigo\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
