@@ -8132,19 +8132,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
+    "C:\\Users\\isacs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
+      "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Versão 2.1\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
       "projectName": "IdrugWeb",
-      "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
-      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\IdrugWeb\\obj\\",
+      "projectPath": "C:\\Users\\isacs\\Desktop\\Versão 2.1\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
+      "packagesPath": "C:\\Users\\isacs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\isacs\\Desktop\\Versão 2.1\\IDrug\\Codigo\\IdrugWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\isacs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8158,11 +8158,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Core\\Core.csproj"
+            "C:\\Users\\isacs\\Desktop\\Versão 2.1\\IDrug\\Codigo\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\isacs\\Desktop\\Versão 2.1\\IDrug\\Codigo\\Core\\Core.csproj"
             },
-            "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\Rafael\\Downloads\\IDrug-main (2)\\IDrug-main\\Codigo\\Service\\Service.csproj"
+            "C:\\Users\\isacs\\Desktop\\Versão 2.1\\IDrug\\Codigo\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\isacs\\Desktop\\Versão 2.1\\IDrug\\Codigo\\Service\\Service.csproj"
             }
           }
         }
