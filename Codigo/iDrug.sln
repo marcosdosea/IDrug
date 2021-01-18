@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdrugWeb", "IdrugWeb\IdrugWeb.csproj", "{72A17B08-BD46-4864-86DD-09665F50AFC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdrugWeb", "IdrugWeb\IdrugWeb.csproj", "{72A17B08-BD46-4864-86DD-09665F50AFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{019E84A9-D006-43C9-BF29-7029E4327B9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{019E84A9-D006-43C9-BF29-7029E4327B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{36AB9FB0-6C44-44D4-BBE2-17DDB13C15A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{36AB9FB0-6C44-44D4-BBE2-17DDB13C15A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
