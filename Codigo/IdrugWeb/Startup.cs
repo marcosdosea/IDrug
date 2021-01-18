@@ -1,6 +1,7 @@
 using AutoMapper;
 using Core;
 using Core.Service;
+using Core.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -43,6 +44,8 @@ namespace IdrugWeb
 
             // injeção dependência Services
             services.AddTransient<IFarmaciaService, FarmaciaService>();
+
+            services.AddTransient<IUsuarioService, UsuarioService>();
 
             // injeção dependÊncia mappers
             services.AddAutoMapper(typeof(Startup).Assembly);
