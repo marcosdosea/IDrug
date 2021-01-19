@@ -1,0 +1,88 @@
+﻿@model IdrugWeb.Models.DisponibilizarMedicamentoModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Criar</h1>
+
+<h4>Disponibilizar Medicamento</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdDisponibilizacaoMedicamento" class="control-label"></label>
+                <input asp-for="IdDisponibilizacaoMedicamento" class="form-control" />
+                <span asp-validation-for="IdDisponibilizacaoMedicamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataInicioDisponibilizacao" class="control-label"></label>
+                <input asp-for="DataInicioDisponibilizacao" class="form-control" />
+                <span asp-validation-for="DataInicioDisponibilizacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataFimDisponibilizacao" class="control-label"></label>
+                <input asp-for="DataFimDisponibilizacao" class="form-control" />
+                <span asp-validation-for="DataFimDisponibilizacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Lote" class="control-label"></label>
+                <input asp-for="Lote" class="form-control" />
+                <span asp-validation-for="Lote" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantidade" class="control-label"></label>
+                <input asp-for="Quantidade" class="form-control" />
+                <span asp-validation-for="Quantidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValidadeMes" class="control-label"></label>
+                <input asp-for="ValidadeMes" class="form-control" />
+                <span asp-validation-for="ValidadeMes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ValidadeAno" class="control-label"></label>
+                <input asp-for="ValidadeAno" class="form-control" />
+                <span asp-validation-for="ValidadeAno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataVencimento" class="control-label"></label>
+                <input asp-for="DataVencimento" class="form-control" />
+                <span asp-validation-for="DataVencimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuantidadeReservada" class="control-label"></label>
+                <input asp-for="QuantidadeReservada" class="form-control" />
+                <span asp-validation-for="QuantidadeReservada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuantidadeEntregue" class="control-label"></label>
+                <input asp-for="QuantidadeEntregue" class="form-control" />
+                <span asp-validation-for="QuantidadeEntregue" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuantidadeDisponivel" class="control-label"></label>
+                <input asp-for="QuantidadeDisponivel" class="form-control" />
+                <span asp-validation-for="QuantidadeDisponivel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar para a Lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
