@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj": {}
+    "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\isacs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\obj\\",
+        "outputPath": "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\isacs\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -54,12 +54,15 @@ namespace Service
 
         public IEnumerable<Usuario> ObterPorNome(string nome)
         {
+            //IEnumerable<Usuario> usuario = GetQuery().Where(UsuarioModel => UsuarioModel.Nome.StartsWith(nome));
+            //return usuario;
             throw new NotImplementedException();
         }
 
         public IEnumerable<Usuario> ObterTodos()
         {
-            throw new NotImplementedException();
+            return (IEnumerable<Usuario>)GetQuery();
         }
+
     }
 }
