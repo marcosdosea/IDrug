@@ -6542,11 +6542,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\isacs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\obj\\",
+      "outputPath": "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\isacs\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6563,8 +6563,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj"
+            "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\isacs\\Desktop\\Branch103\\IDrug\\Codigo\\Core\\Core.csproj"
             }
           }
         }

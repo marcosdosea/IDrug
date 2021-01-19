@@ -22,6 +22,13 @@ namespace IdrugWeb.Controllers
             _mapper = mapper;
         }
 
+        public ActionResult Index()
+        {
+            var listaUsuarios = _usuarioService.ObterTodos();
+            var listaUsuariosModel = _mapper.Map<List<UsuarioModel>>(listaUsuarios);
+            return View(listaUsuariosModel);
+        }
+
         // GET: UsuarioController/Details/5
         public ActionResult Details(int id)
         {
@@ -40,6 +47,25 @@ namespace IdrugWeb.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(UsuarioModel usuarioModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var usuario = _mapper.Map<Usuario>(usuarioModel);
+                int v = _usuarioService.Inserir(usuario);
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public ActionResult CreateFarmaceutico()
+        {
+            return View();
+        }
+
+        // POST: UsuarioController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult CreateFarmaceutico(UsuarioModel usuarioModel)
         {
             if (ModelState.IsValid)
             {
