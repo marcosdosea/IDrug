@@ -1,5 +1,6 @@
 ﻿@model IdrugWeb.Models.MedicamentoModel
 
+
 @{
     ViewData["Title"] = "Create";
 }
@@ -26,6 +27,11 @@
                 <label asp-for="CodigoBarras" class="control-label"></label>
                 <input asp-for="CodigoBarras" class="form-control" />
                 <span asp-validation-for="CodigoBarras" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdCategoriaMedicamento" class="control-label"></label>
+                <select asp-for="IdCategoriaMedicamento" asp-items="ViewBag.IdCategoriaMedicamento" class="form-control"></select>
+                <span asp-validation-for="IdCategoriaMedicamento" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Fabricante" class="control-label"></label>

@@ -118,3 +118,18 @@ C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\Service\obj\Debug\net
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.pdb
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache
+C:\Users\Henrique\Desktop\Codigo\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\Henrique\Desktop\Codigo\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.json
+C:\Users\Henrique\Desktop\Codigo\Service\bin\Debug\netcoreapp3.1\Service.runtimeconfig.dev.json
+C:\Users\Henrique\Desktop\Codigo\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\Henrique\Desktop\Codigo\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Henrique\Desktop\Codigo\Service\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Henrique\Desktop\Codigo\Service\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Henrique\Desktop\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\Codigo\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\Henrique\Desktop\Codigo\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\Henrique\Desktop\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\Codigo\Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+C:\Users\Henrique\Desktop\Codigo\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\Henrique\Desktop\Codigo\Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Henrique\Desktop\Codigo\Service\obj\Debug\netcoreapp3.1\Service.genruntimeconfig.cache
