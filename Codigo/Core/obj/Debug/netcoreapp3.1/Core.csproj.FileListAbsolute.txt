@@ -103,3 +103,15 @@ C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\Core\obj\Debug\netcor
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\Core\obj\Debug\netcoreapp3.1\Core.pdb
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+C:\Users\Henrique\Desktop\Codigo\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\Henrique\Desktop\Codigo\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\Henrique\Desktop\Codigo\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\Henrique\Desktop\Codigo\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Henrique\Desktop\Codigo\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Henrique\Desktop\Codigo\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\Codigo\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\Henrique\Desktop\Codigo\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\Henrique\Desktop\Codigo\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\Codigo\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\Henrique\Desktop\Codigo\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Henrique\Desktop\Codigo\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache

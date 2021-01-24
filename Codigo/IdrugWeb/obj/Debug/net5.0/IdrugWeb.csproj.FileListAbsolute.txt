@@ -1257,3 +1257,339 @@ C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\IdrugWeb\obj\Debug\ne
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\ref\IdrugWeb.dll
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.pdb
 C:\Users\Rafael\Downloads\IDrug-main (4)\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.genruntimeconfig.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\appsettings.json
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.exe
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.deps.json
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.runtimeconfig.json
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.runtimeconfig.dev.json
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ref\IdrugWeb.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.pdb
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.Views.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.Views.pdb
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Core.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Service.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Core.pdb
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\bin\Debug\net5.0\Service.pdb
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.AssemblyInfoInputs.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.AssemblyInfo.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorAssemblyInfo.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorAssemblyInfo.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\staticwebassets\IdrugWeb.StaticWebAssets.Manifest.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\staticwebassets\IdrugWeb.StaticWebAssets.xml
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\scopedcss\bundle\IdrugWeb.styles.css
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.TagHelpers.input.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.TagHelpers.output.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorCoreGenerate.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\CreateSolicitacaoFarmacia.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\CreateFarmaceutico.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorTargetAssemblyInfo.cache
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorTargetAssemblyInfo.cs
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.Views.pdb
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.csproj.CopyComplete
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\ref\IdrugWeb.dll
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.pdb
+C:\Users\Henrique\Desktop\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.genruntimeconfig.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\appsettings.json
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.exe
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.deps.json
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.runtimeconfig.json
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.runtimeconfig.dev.json
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ref\IdrugWeb.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.pdb
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.Views.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\IdrugWeb.Views.pdb
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.Bcl.HashCode.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Core.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Service.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Core.pdb
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\bin\Debug\net5.0\Service.pdb
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.csprojAssemblyReference.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.AssemblyInfoInputs.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.AssemblyInfo.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.csproj.CoreCompileInputs.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorAssemblyInfo.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorAssemblyInfo.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\staticwebassets\IdrugWeb.StaticWebAssets.Manifest.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\staticwebassets\IdrugWeb.StaticWebAssets.xml
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\scopedcss\bundle\IdrugWeb.styles.css
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.TagHelpers.input.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.TagHelpers.output.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorCoreGenerate.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\CreateSolicitacaoFarmacia.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Medicamento\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\CreateFarmaceutico.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorTargetAssemblyInfo.cache
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.RazorTargetAssemblyInfo.cs
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.Views.pdb
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.csproj.CopyComplete
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\ref\IdrugWeb.dll
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.pdb
+C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.genruntimeconfig.cache

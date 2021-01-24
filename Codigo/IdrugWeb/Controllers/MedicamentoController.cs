@@ -4,6 +4,7 @@ using Core.Service;
 using IdrugWeb.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +15,13 @@ namespace IdrugWeb.Controllers
     public class MedicamentoController : Controller
     {
         IMedicamentoService _medicamentoService;
+        ICategoriaMedicamentoService _categoriaMedicamentoService;
         IMapper _mapper;
 
-        public MedicamentoController(IMedicamentoService medicamentoService, IMapper mapper)
+        public MedicamentoController(IMedicamentoService medicamentoService, ICategoriaMedicamentoService categoriaMedicamentoService,IMapper mapper)
         {
             _medicamentoService = medicamentoService;
+            _categoriaMedicamentoService = categoriaMedicamentoService;
             _mapper = mapper;
         }
 
@@ -39,11 +42,17 @@ namespace IdrugWeb.Controllers
             MedicamentoModel medicamentoModel = _mapper.Map<MedicamentoModel>(medicamento);
             return View(medicamentoModel);
         }
-       
+
 
         // GET: MedicamentoController/Create
         public ActionResult Create()
         {
+            IEnumerable<Medicamento> listaMedicamentos = _medicamentoService.ObterTodos();
+            IEnumerable<Categoriamedicamento> listaCategoriaMedicamento = _categoriaMedicamentoService.ObterTodos();
+
+            ViewBag.IdMedicamento = new SelectList(listaMedicamentos, "IdMedicamento", "Nome", null);
+            ViewBag.IdCategoriaMedicamento = new SelectList(listaCategoriaMedicamento, "IdCategoriaMedicamento", "NomeCategoria", null);
+
             return View();
         }
 
@@ -51,7 +60,7 @@ namespace IdrugWeb.Controllers
         // POST: MedicamentoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        
+
         public ActionResult Create(MedicamentoModel medicamentoModel)
         {
             if (ModelState.IsValid)
