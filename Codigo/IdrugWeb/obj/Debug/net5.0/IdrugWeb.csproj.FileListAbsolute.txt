@@ -1593,3 +1593,10 @@ C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.d
 C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\ref\IdrugWeb.dll
 C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.pdb
 C:\Users\Henrique\Desktop\Nova pasta\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.genruntimeconfig.cache
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Create.cshtml.g.cs
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Delete.cshtml.g.cs
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Details.cshtml.g.cs
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Edit.cshtml.g.cs
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Index.cshtml.g.cs
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\CreateFarmaceutico.cshtml.g.cs
+C:\Users\isacs\Desktop\Branch\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Index.cshtml.g.cs
