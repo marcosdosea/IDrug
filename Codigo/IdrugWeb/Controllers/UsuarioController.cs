@@ -62,7 +62,7 @@ namespace IdrugWeb.Controllers
             return View();
         }
 
-        // POST: UsuarioController/Create
+        // POST: UsuarioController/CreateFarmaceutico
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult CreateFarmaceutico(UsuarioModel usuarioModel)
@@ -70,6 +70,7 @@ namespace IdrugWeb.Controllers
             if (ModelState.IsValid)
             {
                 var usuario = _mapper.Map<Usuario>(usuarioModel);
+                usuario.TipoUsuario = "FARMACEUTICO";
                 int v = _usuarioService.Inserir(usuario);
             }
 

@@ -17,8 +17,6 @@ namespace IdrugWeb.Models
         [Required(ErrorMessage = "Código da Farmacia é obrigatório")]
         public int IdFarmacia { get; set; }
 
-        [Required(ErrorMessage = "Campo requerido")]
-        [StringLength(15, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string TipoUsuario { get; set; }
 
         [Required(ErrorMessage = "Campo requerido")]

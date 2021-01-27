@@ -23,11 +23,6 @@
                 <span asp-validation-for="IdFarmacia" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="TipoUsuario" class="control-label"></label>
-                <input asp-for="TipoUsuario" class="form-control" />
-                <span asp-validation-for="TipoUsuario" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="Nome" class="control-label"></label>
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
@@ -76,6 +71,11 @@
                 <label asp-for="Senha" class="control-label"></label>
                 <input asp-for="Senha" class="form-control" />
                 <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <div class="form-group invisible">
+                <label asp-for="TipoUsuario" class="control-label"></label>
+                <input asp-for="TipoUsuario" class="form-control" />
+                <span asp-validation-for="TipoUsuario" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
