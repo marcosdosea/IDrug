@@ -62,7 +62,7 @@ namespace IdrugWeb.Controllers
             return View();
         }
 
-        // POST: FarmaciaController/Create
+        // POST: FarmaciaController/CreateSolicitacaoFarmacia
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult CreateSolicitacaoFarmacia(FarmaciaModel farmaciaModel)
@@ -70,6 +70,7 @@ namespace IdrugWeb.Controllers
             if (ModelState.IsValid)
             {
                 var farmacia = _mapper.Map<Farmacia>(farmaciaModel);
+                farmacia.Status = "INATIVA";
                 _farmaciaService.Inserir(farmacia);
             }
 

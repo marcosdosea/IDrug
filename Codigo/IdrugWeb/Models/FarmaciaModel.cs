@@ -45,8 +45,6 @@ namespace IdrugWeb.Models
         [StringLength(25, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Bairro { get; set; }
 
-        [Required(ErrorMessage = "Campo requerido")]
-        [StringLength(7, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Status { get; set; }
 
     }
