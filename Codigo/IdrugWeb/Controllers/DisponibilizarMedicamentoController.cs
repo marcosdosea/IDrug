@@ -72,7 +72,16 @@ namespace IdrugWeb.Controllers
         // GET: DisponibilizarMedicamentoController/Edit/5
         public ActionResult Edit(int id)
         {
+            IEnumerable<Medicamentodisponivel> listaMedicamentosDisponiveis = _disponibilizarMedicamentoService.ObterTodos();
+            IEnumerable<Medicamento> listaMedicamentos = _medicamentoService.ObterTodos();
+            IEnumerable<Farmacia> listaFarmacias = _farmaciaService.ObterTodos();
             Medicamentodisponivel disponibilizacao = _disponibilizarMedicamentoService.Obter(id);
+
+            ViewBag.IdDisponibilizacaoMedicamento = new SelectList(listaMedicamentosDisponiveis, "IdDisponibilizacaoMedicamento", "Nome", disponibilizacao.IdMedicamentoNavigation);
+            ViewBag.IdMedicamento = new SelectList(listaMedicamentos, "IdMedicamento", "Nome", disponibilizacao.IdMedicamentoNavigation);
+            ViewBag.IdFarmacia = new SelectList(listaFarmacias, "IdFarmacia", "Nome", disponibilizacao.IdFarmaciaNavigation);
+
+
             DisponibilizarMedicamentoModel disponibilizacaoModel = _mapper.Map<DisponibilizarMedicamentoModel>(disponibilizacao);
             return View(disponibilizacaoModel);
         }
