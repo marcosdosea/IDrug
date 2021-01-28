@@ -7,7 +7,7 @@
 <h1>Disponibilizar Medicamento</h1>
 
 <p>
-    <a asp-action="Create">Criar Nova Disponibilização</a>
+    <a asp-action="Create">Nova Disponibilização</a>
 </p>
 <table class="table">
     <thead>
@@ -19,36 +19,19 @@
                 @Html.DisplayNameFor(model => model.DataInicioDisponibilizacao)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataFimDisponibilizacao)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Lote)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Quantidade)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ValidadeMes)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ValidadeAno)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
+                @Html.DisplayNameFor(model => model.StatusMedicamento)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.DataVencimento)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.QuantidadeReservada)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.QuantidadeEntregue)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.QuantidadeDisponivel)
             </th>
-            <th></th>
+            <th>
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -61,31 +44,13 @@
                 @Html.DisplayFor(modelItem => item.DataInicioDisponibilizacao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DataFimDisponibilizacao)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Lote)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Quantidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ValidadeMes)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ValidadeAno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
+                @Html.DisplayFor(modelItem => item.StatusMedicamento)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DataVencimento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.QuantidadeReservada)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.QuantidadeEntregue)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.QuantidadeDisponivel)

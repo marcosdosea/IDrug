@@ -4,6 +4,7 @@ using Core.Service;
 using IdrugWeb.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +15,15 @@ namespace IdrugWeb.Controllers
     public class DisponibilizarMedicamentoController : Controller
     {
         IDisponibilizarMedicamentoService _disponibilizarMedicamentoService;
+        IFarmaciaService _farmaciaService;
+        IMedicamentoService _medicamentoService;
         IMapper _mapper;
 
-        public DisponibilizarMedicamentoController(IDisponibilizarMedicamentoService disponibilizarMedicamentoService, IMapper mapper)
+        public DisponibilizarMedicamentoController(IDisponibilizarMedicamentoService disponibilizarMedicamentoService, IMedicamentoService medicamentoService, IFarmaciaService farmaciaService, IMapper mapper)
         {
             _disponibilizarMedicamentoService = disponibilizarMedicamentoService;
+            _medicamentoService = medicamentoService;
+            _farmaciaService = farmaciaService;
             _mapper = mapper;
         }
 
@@ -41,6 +46,12 @@ namespace IdrugWeb.Controllers
         // GET: DisponibilizarMedicamentoController/Create
         public ActionResult Create()
         {
+            IEnumerable<Medicamento> listaMedicamentos = _medicamentoService.ObterTodos();
+            IEnumerable<Farmacia> listaFarmacias = _farmaciaService.ObterTodos();
+            
+            ViewBag.IdMedicamento = new SelectList(listaMedicamentos, "IdMedicamento", "Nome", null);
+            ViewBag.IdFarmacia = new SelectList(listaFarmacias, "IdFarmacia", "Nome", null);
+
             return View();
         }
 
