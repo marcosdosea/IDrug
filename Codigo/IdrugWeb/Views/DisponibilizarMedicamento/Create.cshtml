@@ -4,7 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Criar</h1>
+<h1>Disponibilizar</h1>
 
 <h4>Disponibilizar Medicamento</h4>
 <hr />
@@ -16,6 +16,16 @@
                 <label asp-for="IdDisponibilizacaoMedicamento" class="control-label"></label>
                 <input asp-for="IdDisponibilizacaoMedicamento" class="form-control" />
                 <span asp-validation-for="IdDisponibilizacaoMedicamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for=" IdMedicamento" class="control-label"></label>
+                <select asp-for=" IdMedicamento" asp-items="ViewBag.IdMedicamento" class="form-control"></select>
+                <span asp-validation-for=" IdMedicamento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdFarmacia" class="control-label"></label>
+                <select asp-for="IdFarmacia" asp-items="ViewBag.IdFarmacia" class="form-control"></select>
+                <span asp-validation-for="IdFarmacia" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="DataInicioDisponibilizacao" class="control-label"></label>
@@ -48,9 +58,13 @@
                 <span asp-validation-for="ValidadeAno" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
-                <span asp-validation-for="Status" class="text-danger"></span>
+                <label asp-for="StatusMedicamento" class="control-label"></label>
+                <select asp-for="StatusMedicamento" class="form-control">
+                    <option value="disponivel">Disponivel</option>
+                    <option value="indisponivel">Indisponivel</option>
+                    <option value="reservado">Reservado</option>
+                </select>
+                <span asp-validation-for="StatusMedicamento" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="DataVencimento" class="control-label"></label>
@@ -73,7 +87,7 @@
                 <span asp-validation-for="QuantidadeDisponivel" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
             </div>
         </form>
     </div>
