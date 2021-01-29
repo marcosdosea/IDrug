@@ -18,6 +18,7 @@ namespace IdrugWeb.Models
         [StringLength(45, MinimumLength = 5, ErrorMessage = "Nome do medicamento deve ter entre 5 e 45 caracteres")]
         public string Nome { get; set; }
 
+        [Display(Name = "Código de Barras")]
         public string CodigoBarras { get; set; }
 
 
