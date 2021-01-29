@@ -1768,3 +1768,24 @@ C:\Users\Rafael\Documents\Projeto ESII\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\Id
 C:\Users\Rafael\Documents\Projeto ESII\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\ref\IdrugWeb.dll
 C:\Users\Rafael\Documents\Projeto ESII\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.pdb
 C:\Users\Rafael\Documents\Projeto ESII\IDrug\Codigo\IdrugWeb\obj\Debug\net5.0\IdrugWeb.genruntimeconfig.cache
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\CategoriaMedicamento\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\DisponibilizarMedicamento\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\CreateSolicitacaoFarmacia.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Farmacia\Index.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Create.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\CreateFarmaceutico.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Delete.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Details.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Edit.cshtml.g.cs
+C:\Users\Henrique\Desktop\IDrug-main\Codigo\IdrugWeb\obj\Debug\net5.0\Razor\Views\Usuario\Index.cshtml.g.cs
