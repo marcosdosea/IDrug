@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\Service.csproj": {}
+    "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\isacs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\isacs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,21 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\Service.csproj": {
+    "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\isacs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\obj\\",
+        "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\isacs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +94,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj"
               }
             }
           }
@@ -132,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
