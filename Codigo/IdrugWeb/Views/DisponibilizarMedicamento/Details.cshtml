@@ -1,13 +1,13 @@
 ﻿@model IdrugWeb.Models.DisponibilizarMedicamentoModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhes Disponibilização";
 }
 
-<h1>Detalhes Disponibilização</h1>
+<h1>Disponibilização Medicamento</h1>
 
 <div>
-    <h4>Disponibilização Medicamento</h4>
+    <h4>Detalhes</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -85,6 +85,6 @@
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.IdDisponibilizacaoMedicamento}) |
+    @Html.ActionLink("Editar", "Edit", new { id = Model.IdDisponibilizacaoMedicamento}) |
     <a asp-action="Index">Voltar para a Lista</a>
 </div>

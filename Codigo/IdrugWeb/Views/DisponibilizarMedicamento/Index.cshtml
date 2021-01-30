@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<IdrugWeb.Models.DisponibilizarMedicamentoModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Disponibilizações";
 }
 
-<h1>Disponibilizar Medicamento</h1>
+<h1>Medicamentos Disponibilizados </h1>
 
 <p>
     <a asp-action="Create">Nova Disponibilização</a>
@@ -38,7 +38,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.IdDisponibilizacaoMedicamento)
+                @Html.DisplayFor(ControllerContext => item.IdDisponibilizacaoMedicamento)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DataInicioDisponibilizacao)
@@ -56,9 +56,9 @@
                 @Html.DisplayFor(modelItem => item.QuantidadeDisponivel)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.IdDisponibilizacaoMedicamento}) |
-                @Html.ActionLink("Details", "Details", new { id=item.IdDisponibilizacaoMedicamento}) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.IdDisponibilizacaoMedicamento })
+                @Html.ActionLink("Editar", "Edit", new { id=item.IdDisponibilizacaoMedicamento}) |
+                @Html.ActionLink("Detalhes", "Details", new { id=item.IdDisponibilizacaoMedicamento}) |
+                @Html.ActionLink("Deletar", "Delete", new { id=item.IdDisponibilizacaoMedicamento })
             </td>
         </tr>
 }
