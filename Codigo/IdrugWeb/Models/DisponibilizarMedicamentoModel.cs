@@ -36,14 +36,10 @@ namespace IdrugWeb.Models
         public string Quantidade { get; set; }
 
         [Display(Name = "Validade - Mês")]
-        [DataType(DataType.Date, ErrorMessage = "Data válida requerida")]
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
-        public DateTime ValidadeMes { get; set; }
+        public String ValidadeMes { get; set; }
 
         [Display(Name = "Validade - Ano")]
-        //[DataType(DataType.Date, ErrorMessage = "Data válida requerida")]
-        //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
-        public String ValidadeAno { get; set; }
+        public int ValidadeAno { get; set; }
 
         [Display(Name = "Status")]
         public string StatusMedicamento{ get; set; }

@@ -18,8 +18,8 @@ namespace Core
         public int QuantidadeDisponibilizacao { get; set; }
         public string Lote { get; set; }
         public string Quantidade { get; set; }
-        public DateTime ValidadeMes { get; set; }
-        public string ValidadeAno { get; set; }
+        public string ValidadeMes { get; set; }
+        public int ValidadeAno { get; set; }
         public string StatusMedicamento { get; set; }
         public DateTime DataVencimento { get; set; }
         public int QuantidadeReservada { get; set; }
