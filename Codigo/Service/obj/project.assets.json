@@ -6537,19 +6537,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
+    "C:\\Users\\isacs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projeto ESII\\IDrug\\Codigo\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\Rafael\\Documents\\Projeto ESII\\IDrug\\Codigo\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Documents\\Projeto ESII\\IDrug\\Codigo\\Service\\obj\\",
+      "projectPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\isacs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\isacs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6563,8 +6563,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Rafael\\Documents\\Projeto ESII\\IDrug\\Codigo\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Rafael\\Documents\\Projeto ESII\\IDrug\\Codigo\\Core\\Core.csproj"
+            "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\isacs\\Desktop\\Branch\\IDrug\\Codigo\\Core\\Core.csproj"
             }
           }
         }
