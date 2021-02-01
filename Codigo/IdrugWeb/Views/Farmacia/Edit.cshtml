@@ -1,12 +1,12 @@
 ﻿@model IdrugWeb.Models.FarmaciaModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Farmácia";
 }
 
-<h1>Edit</h1>
+<h1>Alterar Dados</h1>
 
-<h4>FarmaciaModel</h4>
+<h4>Farmácia</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,7 +14,7 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="IdFarmacia" class="control-label"></label>
-                <input asp-for="IdFarmacia" class="form-control" />
+                <input asp-for="IdFarmacia" class="form-control" readonly/>
                 <span asp-validation-for="IdFarmacia" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -59,18 +59,21 @@
             </div>
             <div class="form-group">
                 <label asp-for="Status" class="control-label"></label>
-                <input asp-for="Status" class="form-control" />
+                <select asp-for="Status" class="form-control">
+                    <option value="ativa">Ativa</option>
+                    <option value="inativa">Inativa</option>
+                </select>
                 <span asp-validation-for="Status" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Voltar para a Lista</a>
 </div>
 
 @section Scripts {

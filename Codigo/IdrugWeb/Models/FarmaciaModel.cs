@@ -13,9 +13,9 @@ namespace IdrugWeb.Models
         [Required(ErrorMessage = "Código da Farmácia é obrigatório")]
         public int IdFarmacia { get; set; }
 
-        [Display(Name = "Nome da farmácia:")]
+        [Display(Name = "Nome da Farmácia:")]
         [Required(ErrorMessage = "Campo requerido")]
-        [StringLength(60, ErrorMessage = "Nome da farmácia deve ter entre 5 e 60 caracteres")]
+        [StringLength(60, MinimumLength = 5, ErrorMessage = "Nome da farmácia deve ter entre 3 e 60 caracteres")]
         public string Nome { get; set; }
 
         [Display(Name = "CNPJ:")]
