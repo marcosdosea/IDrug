@@ -1,35 +1,21 @@
 ﻿@model IEnumerable<IdrugWeb.Models.FarmaciaModel>
 
-@{
-    ViewData["Title"] = "Index";
-}
+@{ ViewData["Title"] = "Farmácias"; }
 
-<h1>Index</h1>
+<h1>Farmácias Parceiras</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
-    <a asp-action="CreateSolicitacaoFarmacia">Seja nosso parceiro - Cadastre sua Farmacia</a>
+    <a asp-action="Create">Nova Farmácia</a>
+    <!--<a asp-action="CreateSolicitacaoFarmacia">Seja nosso parceiro - Cadastre sua Farmacia</a>-->
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.IdFarmacia)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Cnpj)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Telefone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Cep)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Logradouro)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Estado)
@@ -47,44 +33,31 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdFarmacia)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cnpj)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Telefone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cep)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Logradouro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Estado)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Bairro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.IdFarmacia}) |
-                @Html.ActionLink("Details", "Details", new { id=item.IdFarmacia}) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.IdFarmacia})
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nome)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Telefone)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Estado)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Cidade)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Bairro)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Status)
+    </td>
+    <td>
+        @Html.ActionLink("Editar", "Edit", new { id = item.IdFarmacia }) |
+        @Html.ActionLink("Detalhes", "Details", new { id = item.IdFarmacia })  
+    </td>
+</tr>}
     </tbody>
 </table>

@@ -51,6 +51,7 @@ namespace IdrugWeb.Controllers
             if (ModelState.IsValid)
             {
                 var farmacia = _mapper.Map<Farmacia>(farmaciaModel);
+                farmacia.Status = "INATIVA";
                 _farmaciaService.Inserir(farmacia);
             }
 
