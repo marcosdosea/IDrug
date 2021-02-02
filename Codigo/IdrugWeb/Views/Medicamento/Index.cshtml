@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<IdrugWeb.Models.MedicamentoModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Medicamento";
 }
 
-<h1>Index</h1>
+<h1>Medicamento</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Novo Medicamento</a>
 </p>
 <table class="table">
     <thead>
@@ -17,6 +17,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fabricante)
             </th>
             <th></th>
         </tr>
@@ -31,9 +34,12 @@
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.IdMedicamento }) |
-                @Html.ActionLink("Details", "Details", new { id=item.IdMedicamento }) |
-                @Html.ActionLink("Delete", "Delete", new { id=item.IdMedicamento })
+                @Html.DisplayFor(modelItem => item.Fabricante)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.IdMedicamento }) |
+                @Html.ActionLink("Details", "Details", new { id = item.IdMedicamento }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.IdMedicamento })
             </td>
         </tr>
 }

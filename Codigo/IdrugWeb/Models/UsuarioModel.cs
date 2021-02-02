@@ -13,6 +13,16 @@ namespace IdrugWeb.Models
 
         [Required(ErrorMessage = "Campo requerido")]
         [StringLength(60, ErrorMessage = "Todos os campos devem ser preenchidos")]
+        public string IdUsuario { get; set; }
+
+
+        [Required(ErrorMessage = "Campo requerido")]
+        [StringLength(60, ErrorMessage = "Todos os campos devem ser preenchidos")]
+        public string IdFarmacia { get; set; }
+
+
+        [Required(ErrorMessage = "Campo requerido")]
+        [StringLength(60, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Campo requerido")]
