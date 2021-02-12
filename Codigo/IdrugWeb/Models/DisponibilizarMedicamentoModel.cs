@@ -29,10 +29,12 @@ namespace IdrugWeb.Models
         [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
         public DateTime DataFimDisponibilizacao { get; set; }
 
+        [Display(Name = "Lote")]
         [Required(ErrorMessage = "Campo requerido")]
         [StringLength(45, MinimumLength = 5, ErrorMessage = "Lote deve conter entre 5 e 45 caracteres")]
         public string Lote { get; set; }
 
+        [Display(Name = "Quantidade")]
         public string Quantidade { get; set; }
 
         [Display(Name = "Validade - Mês")]
@@ -42,7 +44,7 @@ namespace IdrugWeb.Models
         public int ValidadeAno { get; set; }
 
         [Display(Name = "Status")]
-        public string StatusMedicamento{ get; set; }
+        public string StatusMedicamento { get; set; }
 
         [Display(Name = "Data Vencimento")]
         [DataType(DataType.Date, ErrorMessage = "Data válida requerida")]
@@ -53,7 +55,7 @@ namespace IdrugWeb.Models
         public int QuantidadeReservada { get; set; }
 
         [Display(Name = "Quantidade Entregue")]
-        public int QuantidadeEntregue{ get; set; }
+        public int QuantidadeEntregue { get; set; }
 
         [Display(Name = "Quantidade Disponível")]
         public int QuantidadeDisponivel { get; set; }

@@ -48,12 +48,13 @@ namespace IdrugWeb.Controllers
         {
             IEnumerable<Medicamento> listaMedicamentos = _medicamentoService.ObterTodos();
             IEnumerable<Farmacia> listaFarmacias = _farmaciaService.ObterTodos();
-            
+
             ViewBag.IdMedicamento = new SelectList(listaMedicamentos, "IdMedicamento", "Nome", null);
             ViewBag.IdFarmacia = new SelectList(listaFarmacias, "IdFarmacia", "Nome", null);
 
             return View();
         }
+        // TODO: obter ano e mês a partir de data de validade e aicioná - los aos campos, Mes e Ano
 
         // POST: DisponibilizarMedicamentoController/Create
         [HttpPost]
@@ -62,7 +63,7 @@ namespace IdrugWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                var disponibilizacao= _mapper.Map<Medicamentodisponivel>(disponibilizarMedicamentoModel);
+                var disponibilizacao = _mapper.Map<Medicamentodisponivel>(disponibilizarMedicamentoModel);
                 _disponibilizarMedicamentoService.Inserir(disponibilizacao);
             }
 
