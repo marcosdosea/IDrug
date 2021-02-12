@@ -6519,19 +6519,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Rafael\\.nuget\\packages\\": {}
+    "C:\\Users\\isacs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projeto ESII\\IDrug\\Codigo\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\isacs\\Desktop\\Branch_Isac153\\IDrug\\Codigo\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Rafael\\Documents\\Projeto ESII\\IDrug\\Codigo\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Documents\\Projeto ESII\\IDrug\\Codigo\\Core\\obj\\",
+      "projectPath": "C:\\Users\\isacs\\Desktop\\Branch_Isac153\\IDrug\\Codigo\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\isacs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\isacs\\Desktop\\Branch_Isac153\\IDrug\\Codigo\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\isacs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
