@@ -53,6 +53,7 @@ namespace IdrugWeb.Models
         [StringLength(25, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Bairro { get; set; }
 
+        [Display(Name = "Status:")]
         public string Status { get; set; }
 
     }

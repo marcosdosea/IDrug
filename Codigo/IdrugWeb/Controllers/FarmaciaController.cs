@@ -99,14 +99,5 @@ namespace IdrugWeb.Controllers
 
             return RedirectToAction(nameof(Index));
         }
-
-        // GET: FarmaciaController/Delete/5
-        /* public ActionResult Delete(int id)
-        {
-            Farmacia farmacia = _farmaciaService.Obter(id);
-            FarmaciaModel farmaciaModel = _mapper.Map<FarmaciaModel>(farmacia);
-            return View(farmaciaModel);
-        }*/
-
     }
 }
