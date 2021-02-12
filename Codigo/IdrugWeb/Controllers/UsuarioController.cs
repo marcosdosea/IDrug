@@ -2,12 +2,8 @@
 using Core;
 using Core.Services;
 using IdrugWeb.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace IdrugWeb.Controllers
 {
@@ -16,33 +12,38 @@ namespace IdrugWeb.Controllers
         IUsuarioService _usuarioService;
         IMapper _mapper;
 
-        public UsuarioController(IUsuarioService usuarioService, IMapper mapper){
+        public UsuarioController(IUsuarioService usuarioService, IMapper mapper)
+        {
             _usuarioService = usuarioService;
             _mapper = mapper;
         }
 
-        public ActionResult Index(){
+        public ActionResult Index()
+        {
             var listaUsuarios = _usuarioService.ObterTodos();
             var listaUsuariosModel = _mapper.Map<List<UsuarioModel>>(listaUsuarios);
             return View(listaUsuariosModel);
         }
 
         // GET: UsuarioController/Details/5
-        public ActionResult Details(int id){
+        public ActionResult Details(int id)
+        {
             Usuario usuario = _usuarioService.Obter(id);
             UsuarioModel usuarioModel = _mapper.Map<UsuarioModel>(usuario);
             return View(usuarioModel);
         }
 
         // GET: UsuarioController/Create
-        public ActionResult Create(){
+        public ActionResult Create()
+        {
             return View();
         }
 
         // POST: UsuarioController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(UsuarioModel usuarioModel){
+        public ActionResult Create(UsuarioModel usuarioModel)
+        {
             if (ModelState.IsValid)
             {
                 var usuario = _mapper.Map<Usuario>(usuarioModel);
@@ -52,14 +53,16 @@ namespace IdrugWeb.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public ActionResult CreateFarmaceutico(){
+        public ActionResult CreateFarmaceutico()
+        {
             return View();
         }
 
         // POST: UsuarioController/CreateFarmaceutico
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult CreateFarmaceutico(UsuarioModel usuarioModel){
+        public ActionResult CreateFarmaceutico(UsuarioModel usuarioModel)
+        {
             if (ModelState.IsValid)
             {
                 var usuario = _mapper.Map<Usuario>(usuarioModel);
@@ -71,7 +74,8 @@ namespace IdrugWeb.Controllers
         }
 
         // GET: UsuarioController/Edit/5
-        public ActionResult Edit(int id){
+        public ActionResult Edit(int id)
+        {
             Usuario usuario = _usuarioService.Obter(id);
             UsuarioModel usuarioModel = _mapper.Map<UsuarioModel>(usuario);
             return View(usuarioModel);
@@ -80,7 +84,8 @@ namespace IdrugWeb.Controllers
         // POST: UsuarioController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, UsuarioModel usuarioModel){
+        public ActionResult Edit(int id, UsuarioModel usuarioModel)
+        {
             if (ModelState.IsValid)
             {
                 var usuario = _mapper.Map<Usuario>(usuarioModel);
@@ -91,7 +96,8 @@ namespace IdrugWeb.Controllers
         }
 
         // GET: UsuarioController/Delete/5
-        public ActionResult Delete(int id){
+        public ActionResult Delete(int id)
+        {
             Usuario usuario = _usuarioService.Obter(id);
             UsuarioModel usuarioModel = _mapper.Map<UsuarioModel>(usuario);
             return View(usuarioModel);
@@ -100,7 +106,8 @@ namespace IdrugWeb.Controllers
         // POST: UsuarioController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, UsuarioModel usuarioModel){
+        public ActionResult Delete(int id, UsuarioModel usuarioModel)
+        {
             _usuarioService.Remover(id);
             return RedirectToAction(nameof(Index));
         }
