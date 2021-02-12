@@ -103,6 +103,10 @@ namespace Service
 
         }
 
+        /// <summary>
+		/// Remover farmacia pelo id
+		/// </summary>
+		/// <returns></returns>
         public void Remover(int idFarmacia)
         {
             var __farmacia = _context.Farmacia.Find(idFarmacia);
@@ -110,20 +114,33 @@ namespace Service
             _context.SaveChanges();
         }
 
+        /// <summary>
+        /// Insere um novo usuario na base de dados
+        /// </summary>
+        /// <param name="usuario">dados da usuario</param>
+        /// <returns></returns>
         public int InserirUsuario(Usuario usuario)
         {
-       
+
             _context.Add(usuario);
             _context.SaveChanges();
             return usuario.IdUsuario;
         }
 
+        /// <summary>
+		/// Consulta por nome aos dados da farmacia
+		/// </summary>
+		/// <returns></returns>
         public IEnumerable<Farmacia> ObterPorNome(string nome)
         {
             IEnumerable<Farmacia> farmacia = GetQuery().Where(FarmaciaModel => FarmaciaModel.Nome.StartsWith(nome));
             return farmacia;
         }
 
+        /// <summary>
+		/// Consulta por nome aos dados da farmacia com ordem decrecente
+		/// </summary>
+		/// <returns></returns>
         public IEnumerable<FarmaciaDTO> ObterPorNomeOrdenadoDescending(string nome)
         {
             throw new NotImplementedException();
