@@ -35,32 +35,33 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(ControllerContext => item.IdDisponibilizacaoMedicamento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataInicioDisponibilizacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Lote)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.StatusMedicamento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataVencimento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.QuantidadeDisponivel)
-            </td>
-            <td>
-                @Html.ActionLink("Editar", "Edit", new { id=item.IdDisponibilizacaoMedicamento}) |
-                @Html.ActionLink("Detalhes", "Details", new { id=item.IdDisponibilizacaoMedicamento}) |
-                @Html.ActionLink("Deletar", "Delete", new { id=item.IdDisponibilizacaoMedicamento })
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdDisponibilizacaoMedicamento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataInicioDisponibilizacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Lote)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StatusMedicamento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataVencimento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuantidadeDisponivel)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.IdDisponibilizacaoMedicamento }) |
+                    @Html.ActionLink("Detalhes", "Details", new { id = item.IdDisponibilizacaoMedicamento }) |
+                    @Html.ActionLink("Deletar", "Delete", new { id = item.IdDisponibilizacaoMedicamento })
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
