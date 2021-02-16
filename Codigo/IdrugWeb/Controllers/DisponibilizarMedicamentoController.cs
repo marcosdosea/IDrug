@@ -54,7 +54,7 @@ namespace IdrugWeb.Controllers
 
             return View();
         }
-        // TODO: obter ano e mês a partir de data de validade e aicioná - los aos campos, Mes e Ano
+        // TODO: realizar cálculos nos atributos Quantidade Reservada, Quantidade Entregue e Quantidade Disponível 
 
         // POST: DisponibilizarMedicamentoController/Create
         [HttpPost]
@@ -64,6 +64,61 @@ namespace IdrugWeb.Controllers
             if (ModelState.IsValid)
             {
                 var disponibilizacao = _mapper.Map<Medicamentodisponivel>(disponibilizarMedicamentoModel);
+
+                var mesValidade = disponibilizacao.DataVencimento.Month;
+
+                if (mesValidade == 01)
+                {
+                    disponibilizacao.ValidadeMes = "Janeiro";
+                }
+                else if (mesValidade == 02)
+                {
+                    disponibilizacao.ValidadeMes = "Fevereiro";
+                }
+                else if (mesValidade == 03)
+                {
+                    disponibilizacao.ValidadeMes = "Março";
+                }
+                else if (mesValidade == 04)
+                {
+                    disponibilizacao.ValidadeMes = "Abril";
+                }
+                else if (mesValidade == 05)
+                {
+                    disponibilizacao.ValidadeMes = "Maio";
+                }
+                else if (mesValidade == 06)
+                {
+                    disponibilizacao.ValidadeMes = "Junho";
+                }
+                else if (mesValidade == 07)
+                {
+                    disponibilizacao.ValidadeMes = "Julho";
+                }
+                else if (mesValidade == 08)
+                {
+                    disponibilizacao.ValidadeMes = "Agosto";
+                }
+                else if (mesValidade == 09)
+                {
+                    disponibilizacao.ValidadeMes = "Setembro";
+                }
+                else if (mesValidade == 10)
+                {
+                    disponibilizacao.ValidadeMes = "Outubro";
+                }
+                else if (mesValidade == 11)
+                {
+                    disponibilizacao.ValidadeMes = "Novembro";
+                }
+                else if (mesValidade == 12)
+                {
+                    disponibilizacao.ValidadeMes = "Dezembro";
+                }
+
+                var anoValidade = disponibilizacao.DataVencimento.Year;
+                disponibilizacao.ValidadeAno = anoValidade;
+
                 _disponibilizarMedicamentoService.Inserir(disponibilizacao);
             }
 
