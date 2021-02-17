@@ -43,15 +43,17 @@ namespace IdrugWeb.Areas.Identity.Pages.Account
 
         public class InputModel
         {
+            [Display(Name = "E-mail*")]
             [Required]
             [EmailAddress]
             public string Email { get; set; }
 
+            [Display(Name = "Senha*")]
             [Required]
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
-            [Display(Name = "Remember me?")]
+            [Display(Name = "Lembre de mim?")]
             public bool RememberMe { get; set; }
         }
 
