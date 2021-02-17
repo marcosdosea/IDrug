@@ -1,22 +1,20 @@
 ﻿@model IdrugWeb.Models.DisponibilizarMedicamentoModel
 
-@{
-    ViewData["Title"] = "Deletar Disponibilização";
-}
+@{ ViewData["Title"] = "Excuir Disponibilização"; }
 
-<h1>Deletar</h1>
-
-<h3>Você tem certeza que quer deletar este item?</h3>
+<h3>Tem certeza que deseja excluir?</h3>
 <div>
-    <h4>Disponibilizar Medicamento</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.IdDisponibilizacaoMedicamento)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.IdMedicamento)
+            @Html.DisplayFor(model => model.IdDisponibilizacaoMedicamento)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.IdFarmacia)
+        </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.IdFarmacia)
         </dd>
@@ -27,34 +25,10 @@
             @Html.DisplayFor(model => model.DataInicioDisponibilizacao)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.DataFimDisponibilizacao)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.DataFimDisponibilizacao)
-        </dd>
-        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Lote)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Lote)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Quantidade)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Quantidade)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ValidadeMes)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ValidadeMes)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.ValidadeAno)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.ValidadeAno)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.StatusMedicamento)
@@ -68,28 +42,10 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.DataVencimento)
         </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.QuantidadeReservada)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.QuantidadeReservada)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.QuantidadeEntregue)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.QuantidadeEntregue)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.QuantidadeDisponivel)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.QuantidadeDisponivel)
-        </dd>
     </dl>
 
     <form asp-action="Delete">
-        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <input type="submit" value="Excluir" class="btn btn-danger" /> |
         <a asp-action="Index">Voltar</a>
     </form>
 </div>
