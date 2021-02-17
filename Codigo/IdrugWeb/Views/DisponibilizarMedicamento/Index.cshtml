@@ -1,14 +1,18 @@
 ﻿@model IEnumerable<IdrugWeb.Models.DisponibilizarMedicamentoModel>
 
-@{
-    ViewData["Title"] = "Disponibilizações";
-}
+@{ ViewData["Title"] = "Disponibilizações"; }
 
-<h1>Medicamentos Disponibilizados </h1>
+<h1> <strong>Disponibilizar</strong></h1>
+<br>
+<div class="p-3 bg-primary text-white"><h4>Disponibilizar Medicamentos</h4></div>
 
-<p>
-    <a asp-action="Create">Nova Disponibilização</a>
-</p>
+<nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Informe o medicamento" aria-label="Pesquisar">
+        <button class="btn  btn-sm btn-outline-primary my-2 my-sm-0" type="submit">Procurar</button>
+    </form>
+</nav>
+
 <table class="table">
     <thead>
         <tr>
@@ -22,13 +26,13 @@
                 @Html.DisplayNameFor(model => model.Lote)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.StatusMedicamento)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.DataVencimento)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.QuantidadeDisponivel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusMedicamento)
             </th>
             <th>
             </th>
@@ -37,31 +41,35 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IdDisponibilizacaoMedicamento)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DataInicioDisponibilizacao)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Lote)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.StatusMedicamento)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DataVencimento)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.QuantidadeDisponivel)
-                </td>
-                <td>
-                    @Html.ActionLink("Editar", "Edit", new { id = item.IdDisponibilizacaoMedicamento }) |
-                    @Html.ActionLink("Detalhes", "Details", new { id = item.IdDisponibilizacaoMedicamento }) |
-                    @Html.ActionLink("Deletar", "Delete", new { id = item.IdDisponibilizacaoMedicamento })
-                </td>
-            </tr>
-        }
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.IdDisponibilizacaoMedicamento)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DataInicioDisponibilizacao)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Lote)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.DataVencimento)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.QuantidadeDisponivel)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.StatusMedicamento)
+    </td>
+    <td>
+        @Html.ActionLink("Editar", "Edit", new { id = item.IdDisponibilizacaoMedicamento }) |
+        @Html.ActionLink("Detalhes", "Details", new { id = item.IdDisponibilizacaoMedicamento }) |
+        @Html.ActionLink("Excluir", "Delete", new { id = item.IdDisponibilizacaoMedicamento })
+    </td>
+</tr>
+}
     </tbody>
 </table>
+
+<p>
+    <a class="btn btn-primary float-right text-white" asp-action="Create">Nova Disponibilização</a>
+</p>
