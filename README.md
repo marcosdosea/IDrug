@@ -25,4 +25,6 @@ A farmácia realiza a verificação do vencimento dos medicamentos que estão pr
 Os administradores serão responsáveis pela ativação e desativação  de farmácias, sejam elas recém cadastradas ou as já presentes no banco de dados do sistema. 
 
 
+### Breve Demonstração em Vídeo
 
+<a href="https://drive.google.com/drive/folders/1HovK5U9J_HpXcHiqjjnZqEvZR9aqjic8?usp=sharing">Clique Aqui</a>
