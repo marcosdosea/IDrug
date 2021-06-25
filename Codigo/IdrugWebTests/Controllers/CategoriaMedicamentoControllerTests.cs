@@ -1,24 +1,25 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
+using Moq;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Service;
-using Moq;
+using IdrugWeb.Controllers;
+using Core.Service;
 
 namespace IdrugWeb.Controllers.Tests
 {
     [TestClass()]
-	public class MedicamentoControllerTests
+	public class CategoriaMedicamentoControllerTests
 	{
-		private static MedicamentoController controller;
+		private static CategoriaMedicamentoController controller;
 
 
 		[ClassInitialize]
 		public static void Initialize(TestContext testContext)
 		{
 			// Arrange
-			var mockService = new Mock<MedicamentoService>();
+			var mockService = new Mock<ICategoriaMedicamentoService>();
 
 			IMapper mapper = new MapperConfiguration(cfg =>
 				cfg.AddProfile(new AutorProfile())).CreateMapper();
