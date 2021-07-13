@@ -1,0 +1,1250 @@
+{
+  "id": "11759181-e8b4-4207-951e-fb210cc2dfc3",
+  "version": "2.0",
+  "name": "iDrug",
+  "url": "https://localhost:44342",
+  "tests": [{
+    "id": "d4c10a83-0c8f-4791-84e4-b48ec548ec41",
+    "name": "InserirDisponibilizacaoValida",
+    "commands": [{
+      "id": "b189778a-9c79-4b22-8b3b-c43091d83f78",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c87c95a0-d801-4a3e-8526-2516fa030d76",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4749ead-24ee-43cb-b505-eb9c16d1c462",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["linkText=Login", "linkText"],
+        ["css=#login", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[@id='login']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/Identity/Account/Login')]", "xpath:href"],
+        ["xpath=//ul/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9441ed3c-438d-4417-8cc6-3ebe5d2d715d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Input_Email",
+      "targets": [
+        ["id=Input_Email", "id"],
+        ["name=Input.Email", "name"],
+        ["css=#Input_Email", "css:finder"],
+        ["xpath=//input[@id='Input_Email']", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6d6c97a-7731-4230-aaed-14677d985e83",
+      "comment": "",
+      "command": "type",
+      "target": "id=Input_Email",
+      "targets": [
+        ["id=Input_Email", "id"],
+        ["name=Input.Email", "name"],
+        ["css=#Input_Email", "css:finder"],
+        ["xpath=//input[@id='Input_Email']", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rafael@gmail.com"
+    }, {
+      "id": "1c99b0ed-a95e-458f-8ea1-1e1e722b1412",
+      "comment": "",
+      "command": "type",
+      "target": "id=Input_Password",
+      "targets": [
+        ["id=Input_Password", "id"],
+        ["name=Input.Password", "name"],
+        ["css=#Input_Password", "css:finder"],
+        ["xpath=//input[@id='Input_Password']", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Qwert123!"
+    }, {
+      "id": "31287dab-02d4-43ba-ae34-c504df73b873",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-75",
+      "targets": [
+        ["css=.h-75", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Faça seu login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9a2075f-bbb8-4616-9cec-9584f285c9c0",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=manage",
+      "targets": [
+        ["id=manage", "id"],
+        ["linkText=Olá rafael@gmail.com!", "linkText"],
+        ["css=#manage", "css:finder"],
+        ["xpath=//a[contains(text(),'Olá rafael@gmail.com!')]", "xpath:link"],
+        ["xpath=//a[@id='manage']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/Identity/Account/Manage')]", "xpath:href"],
+        ["xpath=//ul/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Olá rafael@gmail.com!')]", "xpath:innerText"]
+      ],
+      "value": "Olá rafael@gmail.com!"
+    }, {
+      "id": "ffc54ed2-897e-4f18-88d0-1b1ad7fd3dca",
+      "comment": "",
+      "command": "open",
+      "target": "/disponibilizarmedicamento",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1443cd94-cdd0-40ab-807f-925670e29b4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nova Disponibilização",
+      "targets": [
+        ["linkText=Nova Disponibilização", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Nova Disponibilização')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/DisponibilizarMedicamento/Create')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nova Disponibilização')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f424a7b7-584e-43ea-945e-e52edf4f56ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdMedicamento",
+      "targets": [
+        ["id=IdMedicamento", "id"],
+        ["name=IdMedicamento", "name"],
+        ["css=#IdMedicamento", "css:finder"],
+        ["xpath=//select[@id='IdMedicamento']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Minoxidil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d8e5cba-97cb-465c-9097-2b4a83a87400",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdMedicamento",
+      "targets": [
+        ["id=IdMedicamento", "id"],
+        ["name=IdMedicamento", "name"],
+        ["css=#IdMedicamento", "css:finder"],
+        ["xpath=//select[@id='IdMedicamento']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Minoxidil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba87c5c2-ed86-486f-95f9-28defb695b01",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdFarmacia",
+      "targets": [
+        ["id=IdFarmacia", "id"],
+        ["name=IdFarmacia", "name"],
+        ["css=#IdFarmacia", "css:finder"],
+        ["xpath=//select[@id='IdFarmacia']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Farmácia do Trabalhador do Brasil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8c85f5f-cefe-4cab-83b5-8d69de8f1148",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdFarmacia",
+      "targets": [
+        ["id=IdFarmacia", "id"],
+        ["name=IdFarmacia", "name"],
+        ["css=#IdFarmacia", "css:finder"],
+        ["xpath=//select[@id='IdFarmacia']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Farmácia do Trabalhador do Brasil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a62fd5a5-9820-4b32-adea-dcb7c33bc265",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataInicioDisponibilizacao",
+      "targets": [
+        ["id=DataInicioDisponibilizacao", "id"],
+        ["name=DataInicioDisponibilizacao", "name"],
+        ["css=#DataInicioDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataInicioDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5015dea-44dd-4387-a2ea-b3b9a4984835",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataInicioDisponibilizacao",
+      "targets": [
+        ["id=DataInicioDisponibilizacao", "id"],
+        ["name=DataInicioDisponibilizacao", "name"],
+        ["css=#DataInicioDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataInicioDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2021-05-08"
+    }, {
+      "id": "3827cb12-9258-4063-9224-9b02c629e512",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataFimDisponibilizacao",
+      "targets": [
+        ["id=DataFimDisponibilizacao", "id"],
+        ["name=DataFimDisponibilizacao", "name"],
+        ["css=#DataFimDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataFimDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "217cd7d7-08a5-45fb-91bf-92b257f9ea68",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataFimDisponibilizacao",
+      "targets": [
+        ["id=DataFimDisponibilizacao", "id"],
+        ["name=DataFimDisponibilizacao", "name"],
+        ["css=#DataFimDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataFimDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2021-05-16"
+    }, {
+      "id": "9561d258-1516-4e8a-bd5d-0438ef52da88",
+      "comment": "",
+      "command": "click",
+      "target": "id=Lote",
+      "targets": [
+        ["id=Lote", "id"],
+        ["name=Lote", "name"],
+        ["css=#Lote", "css:finder"],
+        ["xpath=//input[@id='Lote']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdfc953d-5784-4433-a907-ba2c4ab531d8",
+      "comment": "",
+      "command": "type",
+      "target": "id=Lote",
+      "targets": [
+        ["id=Lote", "id"],
+        ["name=Lote", "name"],
+        ["css=#Lote", "css:finder"],
+        ["xpath=//input[@id='Lote']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "5024365"
+    }, {
+      "id": "3abfbff3-a8df-46d9-92d7-5e8606572e2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Quantidade",
+      "targets": [
+        ["id=Quantidade", "id"],
+        ["name=Quantidade", "name"],
+        ["css=#Quantidade", "css:finder"],
+        ["xpath=//input[@id='Quantidade']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "351d056c-ca58-46e5-9541-f8ccbff53563",
+      "comment": "",
+      "command": "type",
+      "target": "id=Quantidade",
+      "targets": [
+        ["id=Quantidade", "id"],
+        ["name=Quantidade", "name"],
+        ["css=#Quantidade", "css:finder"],
+        ["xpath=//input[@id='Quantidade']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "7c6c5c01-2720-4cbc-a8ef-588d9c72a2ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=StatusMedicamento",
+      "targets": [
+        ["id=StatusMedicamento", "id"],
+        ["name=StatusMedicamento", "name"],
+        ["css=#StatusMedicamento", "css:finder"],
+        ["xpath=//select[@id='StatusMedicamento']", "xpath:attributes"],
+        ["xpath=//div[7]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afdb72db-0bd5-4001-82e1-53356fa96844",
+      "comment": "",
+      "command": "click",
+      "target": "id=StatusMedicamento",
+      "targets": [
+        ["id=StatusMedicamento", "id"],
+        ["name=StatusMedicamento", "name"],
+        ["css=#StatusMedicamento", "css:finder"],
+        ["xpath=//select[@id='StatusMedicamento']", "xpath:attributes"],
+        ["xpath=//div[7]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "690de80c-fd59-46e1-ad10-23d990a0e193",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataVencimento",
+      "targets": [
+        ["id=DataVencimento", "id"],
+        ["name=DataVencimento", "name"],
+        ["css=#DataVencimento", "css:finder"],
+        ["xpath=//input[@id='DataVencimento']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed6048c5-efe5-4198-85f0-27ce6ee304c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataVencimento",
+      "targets": [
+        ["id=DataVencimento", "id"],
+        ["name=DataVencimento", "name"],
+        ["css=#DataVencimento", "css:finder"],
+        ["xpath=//input[@id='DataVencimento']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "2021-05-18"
+    }, {
+      "id": "002b5be4-edfd-4d42-854c-179fe2df3ab4",
+      "comment": "",
+      "command": "click",
+      "target": "id=QuantidadeReservada",
+      "targets": [
+        ["id=QuantidadeReservada", "id"],
+        ["name=QuantidadeReservada", "name"],
+        ["css=#QuantidadeReservada", "css:finder"],
+        ["xpath=//input[@id='QuantidadeReservada']", "xpath:attributes"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c602df7d-e729-49c3-980b-3621fdafed66",
+      "comment": "",
+      "command": "type",
+      "target": "id=QuantidadeReservada",
+      "targets": [
+        ["id=QuantidadeReservada", "id"],
+        ["name=QuantidadeReservada", "name"],
+        ["css=#QuantidadeReservada", "css:finder"],
+        ["xpath=//input[@id='QuantidadeReservada']", "xpath:attributes"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "e88ffbcb-f87f-4b87-874f-c153df3d7489",
+      "comment": "",
+      "command": "click",
+      "target": "id=QuantidadeEntregue",
+      "targets": [
+        ["id=QuantidadeEntregue", "id"],
+        ["name=QuantidadeEntregue", "name"],
+        ["css=#QuantidadeEntregue", "css:finder"],
+        ["xpath=//input[@id='QuantidadeEntregue']", "xpath:attributes"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ce29182-57f8-4dcc-a8d9-d5e9aaefb3c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=QuantidadeEntregue",
+      "targets": [
+        ["id=QuantidadeEntregue", "id"],
+        ["name=QuantidadeEntregue", "name"],
+        ["css=#QuantidadeEntregue", "css:finder"],
+        ["xpath=//input[@id='QuantidadeEntregue']", "xpath:attributes"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "8060fbda-1256-4f8f-85f6-2e499743339a",
+      "comment": "",
+      "command": "click",
+      "target": "id=QuantidadeDisponivel",
+      "targets": [
+        ["id=QuantidadeDisponivel", "id"],
+        ["name=QuantidadeDisponivel", "name"],
+        ["css=#QuantidadeDisponivel", "css:finder"],
+        ["xpath=//input[@id='QuantidadeDisponivel']", "xpath:attributes"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a7d48dd-181b-435a-9eed-d49d3d7b8081",
+      "comment": "",
+      "command": "type",
+      "target": "id=QuantidadeDisponivel",
+      "targets": [
+        ["id=QuantidadeDisponivel", "id"],
+        ["name=QuantidadeDisponivel", "name"],
+        ["css=#QuantidadeDisponivel", "css:finder"],
+        ["xpath=//input[@id='QuantidadeDisponivel']", "xpath:attributes"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "914c09d0-79fa-4e2d-813a-4f2a1a9c705c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Cadastrar']", "xpath:attributes"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f8cc1954-5c12-4d28-a0d4-70d4b223d184",
+    "name": "InserirDisponibilizacaoInvalida",
+    "commands": [{
+      "id": "e2ec6bf9-d004-4d42-8ec1-40930f22a2fb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5641842-12e2-4b3a-bd15-e911d52f85b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "903928bb-20f0-43ca-9deb-ed4f99ba1293",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["linkText=Login", "linkText"],
+        ["css=#login", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[@id='login']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/Identity/Account/Login')]", "xpath:href"],
+        ["xpath=//ul/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29613388-0902-4fba-bfec-2fd3e5f402ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=account",
+      "targets": [
+        ["id=account", "id"],
+        ["css=#account", "css:finder"],
+        ["xpath=//form[@id='account']", "xpath:attributes"],
+        ["xpath=//section/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2376fbc-6d7a-482b-8333-fb7753f761c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Input_Email",
+      "targets": [
+        ["id=Input_Email", "id"],
+        ["name=Input.Email", "name"],
+        ["css=#Input_Email", "css:finder"],
+        ["xpath=//input[@id='Input_Email']", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59e9a0c5-1ebc-4e24-98b4-522b902a68c0",
+      "comment": "",
+      "command": "type",
+      "target": "id=Input_Email",
+      "targets": [
+        ["id=Input_Email", "id"],
+        ["name=Input.Email", "name"],
+        ["css=#Input_Email", "css:finder"],
+        ["xpath=//input[@id='Input_Email']", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "rafael@gmail.com"
+    }, {
+      "id": "14b962d2-03c1-4791-b9b5-53943be5af81",
+      "comment": "",
+      "command": "click",
+      "target": "id=Input_Password",
+      "targets": [
+        ["id=Input_Password", "id"],
+        ["name=Input.Password", "name"],
+        ["css=#Input_Password", "css:finder"],
+        ["xpath=//input[@id='Input_Password']", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f26f88a-5e7b-4d3d-b813-cbebfe770e76",
+      "comment": "",
+      "command": "type",
+      "target": "id=Input_Password",
+      "targets": [
+        ["id=Input_Password", "id"],
+        ["name=Input.Password", "name"],
+        ["css=#Input_Password", "css:finder"],
+        ["xpath=//input[@id='Input_Password']", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Qwert123!"
+    }, {
+      "id": "5c499af1-3432-4f0a-bb8c-3aed0c455e43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-75",
+      "targets": [
+        ["css=.h-75", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='account']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Faça seu login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b085691a-e8ee-4658-bdd4-bcace9865ebd",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=manage",
+      "targets": [
+        ["id=manage", "id"],
+        ["linkText=Olá rafael@gmail.com!", "linkText"],
+        ["css=#manage", "css:finder"],
+        ["xpath=//a[contains(text(),'Olá rafael@gmail.com!')]", "xpath:link"],
+        ["xpath=//a[@id='manage']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/Identity/Account/Manage')]", "xpath:href"],
+        ["xpath=//ul/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Olá rafael@gmail.com!')]", "xpath:innerText"]
+      ],
+      "value": "Olá rafael@gmail.com!"
+    }, {
+      "id": "55351c6a-bf4e-4275-8d2c-f958a73d54f5",
+      "comment": "",
+      "command": "open",
+      "target": "\\disponibilizarmedicamento",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be0aad2c-5148-4c4e-9935-e5e891584dce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nova Disponibilização",
+      "targets": [
+        ["linkText=Nova Disponibilização", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Nova Disponibilização')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/DisponibilizarMedicamento/Create')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Nova Disponibilização')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ac9ebc5-3925-4dae-84d9-0c5a8b6ffd80",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdMedicamento",
+      "targets": [
+        ["id=IdMedicamento", "id"],
+        ["name=IdMedicamento", "name"],
+        ["css=#IdMedicamento", "css:finder"],
+        ["xpath=//select[@id='IdMedicamento']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Minoxidil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d54e325-b60f-4eb1-9d30-6755b416b7fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdMedicamento",
+      "targets": [
+        ["id=IdMedicamento", "id"],
+        ["name=IdMedicamento", "name"],
+        ["css=#IdMedicamento", "css:finder"],
+        ["xpath=//select[@id='IdMedicamento']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Minoxidil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45f86ecc-3d96-4119-baf1-1898c6b2f52f",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdFarmacia",
+      "targets": [
+        ["id=IdFarmacia", "id"],
+        ["name=IdFarmacia", "name"],
+        ["css=#IdFarmacia", "css:finder"],
+        ["xpath=//select[@id='IdFarmacia']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Farmácia do Trabalhador do Brasil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edbfd448-56c0-4ef0-8e5f-7d5704b119b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdFarmacia",
+      "targets": [
+        ["id=IdFarmacia", "id"],
+        ["name=IdFarmacia", "name"],
+        ["css=#IdFarmacia", "css:finder"],
+        ["xpath=//select[@id='IdFarmacia']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'Farmácia do Trabalhador do Brasil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbbe02bf-0409-4ecb-a9e5-45ce0cc5bd61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Cadastrar']", "xpath:attributes"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37172867-809e-40a7-aa97-e10340503054",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataFimDisponibilizacao",
+      "targets": [
+        ["id=DataFimDisponibilizacao", "id"],
+        ["name=DataFimDisponibilizacao", "name"],
+        ["css=#DataFimDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataFimDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdf1a3ae-0a7f-4a85-af6b-fe2300fb8ec2",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataFimDisponibilizacao",
+      "targets": [
+        ["id=DataFimDisponibilizacao", "id"],
+        ["name=DataFimDisponibilizacao", "name"],
+        ["css=#DataFimDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataFimDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2021-05-16"
+    }, {
+      "id": "c6a61ac6-f9aa-4a1d-83ae-0c5ffb90988f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Lote",
+      "targets": [
+        ["id=Lote", "id"],
+        ["name=Lote", "name"],
+        ["css=#Lote", "css:finder"],
+        ["xpath=//input[@id='Lote']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab44957-2951-44e5-91cf-e86648258910",
+      "comment": "",
+      "command": "type",
+      "target": "id=Lote",
+      "targets": [
+        ["id=Lote", "id"],
+        ["name=Lote", "name"],
+        ["css=#Lote", "css:finder"],
+        ["xpath=//input[@id='Lote']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "5024365"
+    }, {
+      "id": "cf398f26-f7d7-4fa6-ab9c-f4e650883379",
+      "comment": "",
+      "command": "click",
+      "target": "id=Quantidade",
+      "targets": [
+        ["id=Quantidade", "id"],
+        ["name=Quantidade", "name"],
+        ["css=#Quantidade", "css:finder"],
+        ["xpath=//input[@id='Quantidade']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4896b9e9-0c45-48d8-8a5b-1546d8e7691b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Quantidade",
+      "targets": [
+        ["id=Quantidade", "id"],
+        ["name=Quantidade", "name"],
+        ["css=#Quantidade", "css:finder"],
+        ["xpath=//input[@id='Quantidade']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "d2b70b2e-f0fe-4af6-98a7-362f6e3f0dbe",
+      "comment": "",
+      "command": "click",
+      "target": "id=StatusMedicamento",
+      "targets": [
+        ["id=StatusMedicamento", "id"],
+        ["name=StatusMedicamento", "name"],
+        ["css=#StatusMedicamento", "css:finder"],
+        ["xpath=//select[@id='StatusMedicamento']", "xpath:attributes"],
+        ["xpath=//div[7]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20ec4a52-9d85-4fb3-bc37-c4980783cc52",
+      "comment": "",
+      "command": "click",
+      "target": "id=StatusMedicamento",
+      "targets": [
+        ["id=StatusMedicamento", "id"],
+        ["name=StatusMedicamento", "name"],
+        ["css=#StatusMedicamento", "css:finder"],
+        ["xpath=//select[@id='StatusMedicamento']", "xpath:attributes"],
+        ["xpath=//div[7]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6f4b2f3-3eea-426e-a838-bc74980a5421",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataVencimento",
+      "targets": [
+        ["id=DataVencimento", "id"],
+        ["name=DataVencimento", "name"],
+        ["css=#DataVencimento", "css:finder"],
+        ["xpath=//input[@id='DataVencimento']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b10fe4e3-68d4-4a41-be73-c7a0c0448b1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataVencimento",
+      "targets": [
+        ["id=DataVencimento", "id"],
+        ["name=DataVencimento", "name"],
+        ["css=#DataVencimento", "css:finder"],
+        ["xpath=//input[@id='DataVencimento']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "2021-05-18"
+    }, {
+      "id": "e1075a5f-b189-4798-9934-4aecdd6d92d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=QuantidadeReservada",
+      "targets": [
+        ["id=QuantidadeReservada", "id"],
+        ["name=QuantidadeReservada", "name"],
+        ["css=#QuantidadeReservada", "css:finder"],
+        ["xpath=//input[@id='QuantidadeReservada']", "xpath:attributes"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcbbb345-f9c7-42e1-a0b4-985890dae322",
+      "comment": "",
+      "command": "type",
+      "target": "id=QuantidadeReservada",
+      "targets": [
+        ["id=QuantidadeReservada", "id"],
+        ["name=QuantidadeReservada", "name"],
+        ["css=#QuantidadeReservada", "css:finder"],
+        ["xpath=//input[@id='QuantidadeReservada']", "xpath:attributes"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "9869d0ea-bc99-4910-81a6-33b977b71b56",
+      "comment": "",
+      "command": "click",
+      "target": "id=QuantidadeEntregue",
+      "targets": [
+        ["id=QuantidadeEntregue", "id"],
+        ["name=QuantidadeEntregue", "name"],
+        ["css=#QuantidadeEntregue", "css:finder"],
+        ["xpath=//input[@id='QuantidadeEntregue']", "xpath:attributes"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfc9b29b-c755-4155-b903-c6741432733e",
+      "comment": "",
+      "command": "type",
+      "target": "id=QuantidadeEntregue",
+      "targets": [
+        ["id=QuantidadeEntregue", "id"],
+        ["name=QuantidadeEntregue", "name"],
+        ["css=#QuantidadeEntregue", "css:finder"],
+        ["xpath=//input[@id='QuantidadeEntregue']", "xpath:attributes"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "a373d8fd-d287-456b-bd14-dd47ea307eb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=QuantidadeDisponivel",
+      "targets": [
+        ["id=QuantidadeDisponivel", "id"],
+        ["name=QuantidadeDisponivel", "name"],
+        ["css=#QuantidadeDisponivel", "css:finder"],
+        ["xpath=//input[@id='QuantidadeDisponivel']", "xpath:attributes"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "788c8682-9e20-4f29-af26-af317e9a3695",
+      "comment": "",
+      "command": "type",
+      "target": "id=QuantidadeDisponivel",
+      "targets": [
+        ["id=QuantidadeDisponivel", "id"],
+        ["name=QuantidadeDisponivel", "name"],
+        ["css=#QuantidadeDisponivel", "css:finder"],
+        ["xpath=//input[@id='QuantidadeDisponivel']", "xpath:attributes"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "30c1cf15-dd20-4d31-a83a-971f0fefec43",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataInicioDisponibilizacao",
+      "targets": [
+        ["id=DataInicioDisponibilizacao", "id"],
+        ["name=DataInicioDisponibilizacao", "name"],
+        ["css=#DataInicioDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataInicioDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39338fd4-66a3-4003-b9cb-9afc407ada2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=DataInicioDisponibilizacao",
+      "targets": [
+        ["id=DataInicioDisponibilizacao", "id"],
+        ["name=DataInicioDisponibilizacao", "name"],
+        ["css=#DataInicioDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataInicioDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b6a986c-3e9b-4c18-9437-f755638bc953",
+      "comment": "",
+      "command": "click",
+      "target": "id=DataInicioDisponibilizacao",
+      "targets": [
+        ["id=DataInicioDisponibilizacao", "id"],
+        ["name=DataInicioDisponibilizacao", "name"],
+        ["css=#DataInicioDisponibilizacao", "css:finder"],
+        ["xpath=//input[@id='DataInicioDisponibilizacao']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64606963-78ac-4705-ad6b-f871ba1bc6dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Cadastrar']", "xpath:attributes"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54e73d64-85e1-4786-9788-87350f34eec2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4",
+      "targets": [
+        ["css=.col-md-4", "css:finder"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d29e61-c246-4517-bb6d-de61f5c5e654",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=DataInicioDisponibilizacao-error",
+      "targets": [
+        ["id=DataInicioDisponibilizacao-error", "id"],
+        ["css=#DataInicioDisponibilizacao-error", "css:finder"],
+        ["xpath=//span[@id='DataInicioDisponibilizacao-error']", "xpath:attributes"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": "The Data Início field is required."
+    }]
+  }, {
+    "id": "9caaa268-54a7-4269-89a7-c53a485d665a",
+    "name": "InserirFarmaciaValida",
+    "commands": [{
+      "id": "8b95cb15-d0cb-4e73-b27d-8a908181fad4",
+      "comment": "",
+      "command": "open",
+      "target": "/farmacia",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d505253-295e-411b-8a7c-7ead6e805561",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "74be8c98-65d6-445a-9a05-5b1ee397cbb8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Seja Farmácia Parceira",
+      "targets": [
+        ["linkText=Seja Farmácia Parceira", "linkText"],
+        ["css=.mr-auto > .nav-item > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Seja Farmácia Parceira')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Farmacia/CreateSolicitacaoFarmacia')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Seja Farmácia Parceira')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e84a2f51-fea5-4f76-819b-0e43060a5f4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Nome",
+      "targets": [
+        ["id=Nome", "id"],
+        ["name=Nome", "name"],
+        ["css=#Nome", "css:finder"],
+        ["xpath=//input[@id='Nome']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a743e90-2609-4393-8b9c-042b6d9fcfa4",
+      "comment": "",
+      "command": "type",
+      "target": "id=Nome",
+      "targets": [
+        ["id=Nome", "id"],
+        ["name=Nome", "name"],
+        ["css=#Nome", "css:finder"],
+        ["xpath=//input[@id='Nome']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Farmácia do Trabalhador do Brasil"
+    }, {
+      "id": "390f3581-00d4-43cf-91e8-bda8e613fa44",
+      "comment": "",
+      "command": "type",
+      "target": "id=Cnpj",
+      "targets": [
+        ["id=Cnpj", "id"],
+        ["name=Cnpj", "name"],
+        ["css=#Cnpj", "css:finder"],
+        ["xpath=//input[@id='Cnpj']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "75065306598"
+    }, {
+      "id": "e36b3679-d887-44b1-b138-4fe85b6777e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=Telefone",
+      "targets": [
+        ["id=Telefone", "id"],
+        ["name=Telefone", "name"],
+        ["css=#Telefone", "css:finder"],
+        ["xpath=//input[@id='Telefone']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "79999255790"
+    }, {
+      "id": "3202d430-20e3-42df-8a1c-b4d0c82da617",
+      "comment": "",
+      "command": "type",
+      "target": "id=Cep",
+      "targets": [
+        ["id=Cep", "id"],
+        ["name=Cep", "name"],
+        ["css=#Cep", "css:finder"],
+        ["xpath=//input[@id='Cep']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "49560"
+    }, {
+      "id": "64c79f3d-64de-4ef3-b97d-e7c719310b41",
+      "comment": "",
+      "command": "type",
+      "target": "id=Logradouro",
+      "targets": [
+        ["id=Logradouro", "id"],
+        ["name=Logradouro", "name"],
+        ["css=#Logradouro", "css:finder"],
+        ["xpath=//input[@id='Logradouro']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Av. Eliziário Menezes, 07"
+    }, {
+      "id": "c9c64e18-0252-492e-b580-61357023b2a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=Estado",
+      "targets": [
+        ["id=Estado", "id"],
+        ["name=Estado", "name"],
+        ["css=#Estado", "css:finder"],
+        ["xpath=//input[@id='Estado']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "SE"
+    }, {
+      "id": "5c394698-6929-481f-aea7-5921fd183be3",
+      "comment": "",
+      "command": "type",
+      "target": "id=Cidade",
+      "targets": [
+        ["id=Cidade", "id"],
+        ["name=Cidade", "name"],
+        ["css=#Cidade", "css:finder"],
+        ["xpath=//input[@id='Cidade']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Moita Bonita"
+    }, {
+      "id": "25d0cf97-28fe-426b-86f0-7dc6f8e53b50",
+      "comment": "",
+      "command": "type",
+      "target": "id=Bairro",
+      "targets": [
+        ["id=Bairro", "id"],
+        ["name=Bairro", "name"],
+        ["css=#Bairro", "css:finder"],
+        ["xpath=//input[@id='Bairro']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Centro"
+    }, {
+      "id": "6d997ecc-a3b5-4210-9472-6803ab3a4d00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Cadastrar']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b56fd930-3c15-48f8-a755-ff6cf0c0a598",
+    "name": "InserirFarmaciaInvalida",
+    "commands": [{
+      "id": "abf53218-fef2-45ec-a687-2e773bf1be0d",
+      "comment": "",
+      "command": "open",
+      "target": "/farmacia",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a127870-affd-4591-8339-d2abb64d6fed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "699x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77ba6050-91b8-4b17-b9c8-dddb459e615a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Seja Farmácia Parceira",
+      "targets": [
+        ["linkText=Seja Farmácia Parceira", "linkText"],
+        ["css=.mr-auto > .nav-item > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Seja Farmácia Parceira')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Farmacia/CreateSolicitacaoFarmacia')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Seja Farmácia Parceira')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0317db80-8ed9-4830-94d5-2e6a33c8fcef",
+      "comment": "",
+      "command": "click",
+      "target": "id=Nome",
+      "targets": [
+        ["id=Nome", "id"],
+        ["name=Nome", "name"],
+        ["css=#Nome", "css:finder"],
+        ["xpath=//input[@id='Nome']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5955050e-eceb-452a-a147-07d6e01d606c",
+      "comment": "",
+      "command": "type",
+      "target": "id=Nome",
+      "targets": [
+        ["id=Nome", "id"],
+        ["name=Nome", "name"],
+        ["css=#Nome", "css:finder"],
+        ["xpath=//input[@id='Nome']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Farmácia do Trabalhador do Brasil"
+    }, {
+      "id": "186fba4d-f8a8-499d-8a65-b1f434321a1f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Telefone",
+      "targets": [
+        ["id=Telefone", "id"],
+        ["name=Telefone", "name"],
+        ["css=#Telefone", "css:finder"],
+        ["xpath=//input[@id='Telefone']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "79999255790"
+    }, {
+      "id": "0174cdc2-e3ea-4926-a581-fd395818ece0",
+      "comment": "",
+      "command": "type",
+      "target": "id=Cep",
+      "targets": [
+        ["id=Cep", "id"],
+        ["name=Cep", "name"],
+        ["css=#Cep", "css:finder"],
+        ["xpath=//input[@id='Cep']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "49560"
+    }, {
+      "id": "9e97b7cc-e6c1-499b-96a3-b3b4264c449a",
+      "comment": "",
+      "command": "type",
+      "target": "id=Logradouro",
+      "targets": [
+        ["id=Logradouro", "id"],
+        ["name=Logradouro", "name"],
+        ["css=#Logradouro", "css:finder"],
+        ["xpath=//input[@id='Logradouro']", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Av. Eliziário Menezes, 07"
+    }, {
+      "id": "80fdc095-3486-451b-9813-6981debcf673",
+      "comment": "",
+      "command": "type",
+      "target": "id=Estado",
+      "targets": [
+        ["id=Estado", "id"],
+        ["name=Estado", "name"],
+        ["css=#Estado", "css:finder"],
+        ["xpath=//input[@id='Estado']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "SE"
+    }, {
+      "id": "bc0236bb-1dc0-4faa-8484-2c20f473b2bd",
+      "comment": "",
+      "command": "type",
+      "target": "id=Cidade",
+      "targets": [
+        ["id=Cidade", "id"],
+        ["name=Cidade", "name"],
+        ["css=#Cidade", "css:finder"],
+        ["xpath=//input[@id='Cidade']", "xpath:attributes"],
+        ["xpath=//div[4]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Moita Bonita"
+    }, {
+      "id": "710eeaa9-d83a-4e16-981f-f491ce75e0cd",
+      "comment": "",
+      "command": "type",
+      "target": "id=Bairro",
+      "targets": [
+        ["id=Bairro", "id"],
+        ["name=Bairro", "name"],
+        ["css=#Bairro", "css:finder"],
+        ["xpath=//input[@id='Bairro']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Centro"
+    }, {
+      "id": "982f6544-2375-426a-be03-ed97c8fc61fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Cadastrar']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6a8b0ec1-b45e-43bd-888d-b7497f0b083b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d4c10a83-0c8f-4791-84e4-b48ec548ec41"]
+  }],
+  "urls": ["https://localhost:44342/"],
+  "plugins": []
+}

@@ -1,10 +1,10 @@
 CREATE DATABASE  IF NOT EXISTS `bd_idrug` /*!40100 DEFAULT CHARACTER SET utf8 */ /*!80016 DEFAULT ENCRYPTION='N' */;
 USE `bd_idrug`;
--- MySQL dump 10.13  Distrib 8.0.25, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 8.0.22, for Win64 (x86_64)
 --
 -- Host: localhost    Database: bd_idrug
 -- ------------------------------------------------------
--- Server version	8.0.25
+-- Server version	8.0.22
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -18,6 +18,172 @@ USE `bd_idrug`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `__efmigrationshistory`
+--
+
+DROP TABLE IF EXISTS `__efmigrationshistory`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `__efmigrationshistory` (
+  `MigrationId` varchar(150) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `ProductVersion` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  PRIMARY KEY (`MigrationId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `__efmigrationshistory`
+--
+
+LOCK TABLES `__efmigrationshistory` WRITE;
+/*!40000 ALTER TABLE `__efmigrationshistory` DISABLE KEYS */;
+/*!40000 ALTER TABLE `__efmigrationshistory` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `aspnetroleclaims`
+--
+
+DROP TABLE IF EXISTS `aspnetroleclaims`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `aspnetroleclaims` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `RoleId` varchar(767) NOT NULL,
+  `ClaimType` text,
+  `ClaimValue` text,
+  PRIMARY KEY (`Id`),
+  KEY `FK_AspNetRoleClaims_AspNetRoles_RoleId` (`RoleId`),
+  CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `aspnetroles` (`Id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aspnetroleclaims`
+--
+
+LOCK TABLES `aspnetroleclaims` WRITE;
+/*!40000 ALTER TABLE `aspnetroleclaims` DISABLE KEYS */;
+/*!40000 ALTER TABLE `aspnetroleclaims` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `aspnetroles`
+--
+
+DROP TABLE IF EXISTS `aspnetroles`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `aspnetroles` (
+  `Id` varchar(767) NOT NULL,
+  `Name` varchar(256) DEFAULT NULL,
+  `NormalizedName` varchar(256) DEFAULT NULL,
+  `ConcurrencyStamp` text,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aspnetroles`
+--
+
+LOCK TABLES `aspnetroles` WRITE;
+/*!40000 ALTER TABLE `aspnetroles` DISABLE KEYS */;
+/*!40000 ALTER TABLE `aspnetroles` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `aspnetuserclaims`
+--
+
+DROP TABLE IF EXISTS `aspnetuserclaims`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `aspnetuserclaims` (
+  `Id` int NOT NULL AUTO_INCREMENT,
+  `UserId` varchar(767) NOT NULL,
+  `ClaimType` text,
+  `ClaimValue` text,
+  PRIMARY KEY (`Id`),
+  KEY `FK_AspNetUserClaims_AspNetUsers_UserId` (`UserId`),
+  CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `aspnetusers` (`Id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aspnetuserclaims`
+--
+
+LOCK TABLES `aspnetuserclaims` WRITE;
+/*!40000 ALTER TABLE `aspnetuserclaims` DISABLE KEYS */;
+/*!40000 ALTER TABLE `aspnetuserclaims` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `aspnetuserlogins`
+--
+
+DROP TABLE IF EXISTS `aspnetuserlogins`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `aspnetuserlogins` (
+  `LoginProvider` varchar(128) NOT NULL,
+  `ProviderKey` varchar(128) NOT NULL,
+  `ProviderDisplayName` text,
+  `UserId` varchar(767) NOT NULL,
+  PRIMARY KEY (`LoginProvider`,`ProviderKey`),
+  KEY `FK_AspNetUserLogins_AspNetUsers_UserId` (`UserId`),
+  CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `aspnetusers` (`Id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aspnetuserlogins`
+--
+
+LOCK TABLES `aspnetuserlogins` WRITE;
+/*!40000 ALTER TABLE `aspnetuserlogins` DISABLE KEYS */;
+/*!40000 ALTER TABLE `aspnetuserlogins` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `aspnetusers`
+--
+
+DROP TABLE IF EXISTS `aspnetusers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `aspnetusers` (
+  `Id` varchar(767) NOT NULL,
+  `UserName` varchar(256) DEFAULT NULL,
+  `NormalizedUserName` varchar(256) DEFAULT NULL,
+  `Email` varchar(256) DEFAULT NULL,
+  `NormalizedEmail` varchar(256) DEFAULT NULL,
+  `EmailConfirmed` bit(1) NOT NULL,
+  `PasswordHash` text,
+  `SecurityStamp` text,
+  `ConcurrencyStamp` text,
+  `PhoneNumber` text,
+  `PhoneNumberConfirmed` bit(1) NOT NULL,
+  `TwoFactorEnabled` bit(1) NOT NULL,
+  `LockoutEnd` timestamp NULL DEFAULT NULL,
+  `LockoutEnabled` bit(1) NOT NULL,
+  `AccessFailedCount` int NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aspnetusers`
+--
+
+LOCK TABLES `aspnetusers` WRITE;
+/*!40000 ALTER TABLE `aspnetusers` DISABLE KEYS */;
+INSERT INTO `aspnetusers` VALUES ('b56ab118-cfbb-4b36-8fad-605aa97c7ab4','r@gamil.com','R@GAMIL.COM','r@gamil.com','R@GAMIL.COM',_binary '','AQAAAAEAACcQAAAAEKUZO8eIjwIVqQBZw505R060JilBPPsJ6rYqf8PIsbiDyfenTm+JdzecpCLel9P6NA==','PJ43VZPNDGSXBCFF4FPDRVW6BKUXSOST','7f40841f-46e2-4a76-9d1c-e19e3ba95d24',NULL,_binary '\0',_binary '\0',NULL,_binary '',0),('bd5fccfd-539b-4d4e-9ff7-e20a7fc2b27f','rafael@gmail.com','RAFAEL@GMAIL.COM','rafael@gmail.com','RAFAEL@GMAIL.COM',_binary '','AQAAAAEAACcQAAAAEBOtClC7sq+HgV/cRPiFXwL0bORK7g02YU6pCkq44H2dGGXSGleTfH3XR1tdYxsTRw==','JVUYQTVO3QV73Y2QDPYGIEH37EBYRX6T','3fa993a9-c807-4127-a717-30af4f3f5b0f',NULL,_binary '\0',_binary '\0',NULL,_binary '',0);
+/*!40000 ALTER TABLE `aspnetusers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `categoriamedicamento`
 --
 
@@ -29,7 +195,7 @@ CREATE TABLE `categoriamedicamento` (
   `nomeCategoria` varchar(60) NOT NULL,
   PRIMARY KEY (`idCategoriaMedicamento`),
   UNIQUE KEY `idCategoriaMedicamento_UNIQUE` (`idCategoriaMedicamento`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,6 +204,7 @@ CREATE TABLE `categoriamedicamento` (
 
 LOCK TABLES `categoriamedicamento` WRITE;
 /*!40000 ALTER TABLE `categoriamedicamento` DISABLE KEYS */;
+INSERT INTO `categoriamedicamento` VALUES (1,'Infantil'),(2,'Genérico');
 /*!40000 ALTER TABLE `categoriamedicamento` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -61,7 +228,7 @@ CREATE TABLE `farmacia` (
   `status` enum('ATIVA','INATIVA') NOT NULL DEFAULT 'INATIVA',
   PRIMARY KEY (`idFarmacia`),
   UNIQUE KEY `idFarmacia_UNIQUE` (`idFarmacia`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -90,7 +257,7 @@ CREATE TABLE `medicamento` (
   UNIQUE KEY `idMedicamento_UNIQUE` (`idMedicamento`),
   KEY `fk_Medicamento_CategoriaMedicamento1_idx` (`idCategoriaMedicamento`),
   CONSTRAINT `idCategoriaMedicamento` FOREIGN KEY (`idCategoriaMedicamento`) REFERENCES `categoriamedicamento` (`idCategoriaMedicamento`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -99,6 +266,7 @@ CREATE TABLE `medicamento` (
 
 LOCK TABLES `medicamento` WRITE;
 /*!40000 ALTER TABLE `medicamento` DISABLE KEYS */;
+INSERT INTO `medicamento` VALUES (1,2,'123','Minoxidil','SANDOZ');
 /*!40000 ALTER TABLE `medicamento` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -132,7 +300,7 @@ CREATE TABLE `medicamentodisponivel` (
   KEY `fk_MedicamentoDisponivel_Farmacia1_idx` (`idFarmacia`),
   CONSTRAINT `fk_MedicamentoDisponivel_Farmacia1` FOREIGN KEY (`idFarmacia`) REFERENCES `farmacia` (`idFarmacia`),
   CONSTRAINT `idMedicamento` FOREIGN KEY (`idMedicamento`) REFERENCES `medicamento` (`idMedicamento`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -168,7 +336,7 @@ CREATE TABLE `solicitacaomedicamento` (
   KEY `fk_tbDisponibilizaMedicamento_has_tbUsuario_tbDisponibiliza_idx` (`idDisponibilizacaoMedicamento`),
   CONSTRAINT `idDisponibilizacaoMedicamento` FOREIGN KEY (`idDisponibilizacaoMedicamento`) REFERENCES `medicamentodisponivel` (`idDisponibilizacaoMedicamento`),
   CONSTRAINT `idUsuario` FOREIGN KEY (`idUsuario`) REFERENCES `usuario` (`idUsuario`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -205,7 +373,7 @@ CREATE TABLE `usuario` (
   UNIQUE KEY `idUsuario_UNIQUE` (`idUsuario`),
   KEY `fk_TB_USUARIO_TB_FARMACIA1_idx` (`idFarmacia`) /*!80000 INVISIBLE */,
   CONSTRAINT `idFarmacia` FOREIGN KEY (`idFarmacia`) REFERENCES `farmacia` (`idFarmacia`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -234,4 +402,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-07-11 12:45:49
+-- Dump completed on 2021-07-13 10:20:57
