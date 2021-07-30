@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\ServiceTests\\ServiceTests.csproj": {}
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\ServiceTests\\ServiceTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Isac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,21 +66,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\ServiceTests\\ServiceTests.csproj": {
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\ServiceTests\\ServiceTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\ServiceTests\\ServiceTests.csproj",
+        "projectUniqueName": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\ServiceTests\\ServiceTests.csproj",
         "projectName": "ServiceTests",
-        "projectPath": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\ServiceTests\\ServiceTests.csproj",
-        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\ServiceTests\\obj\\",
+        "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\ServiceTests\\ServiceTests.csproj",
+        "packagesPath": "C:\\Users\\Isac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\ServiceTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Service\\Service.csproj"
+              "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj"
               }
             }
           }
@@ -146,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Service\\Service.csproj": {
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Service\\obj\\",
+        "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Isac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,8 +174,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Documents\\Projeto QualidadeSoftware\\IDrug\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj"
               }
             }
           }
@@ -212,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

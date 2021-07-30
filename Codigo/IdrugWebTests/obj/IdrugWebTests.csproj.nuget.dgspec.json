@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj": {}
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj": {
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Isac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,17 +70,17 @@
         }
       }
     },
-    "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj": {
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj",
+        "projectUniqueName": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj",
         "projectName": "IdrugWebTests",
-        "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj",
-        "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWebTests\\obj\\",
+        "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj",
+        "packagesPath": "C:\\Users\\Isac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWebTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": ".NETCoreApp,Version=v5.0",
             "projectReferences": {
-              "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {
-                "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj"
+              "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {
+                "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj"
               }
             }
           }
@@ -150,17 +150,17 @@
         }
       }
     },
-    "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
         "projectName": "IdrugWeb",
-        "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
-        "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\obj\\",
+        "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj",
+        "packagesPath": "C:\\Users\\Isac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,11 +174,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj"
               },
-              "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj"
+              "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj"
               }
             }
           }
@@ -248,17 +248,17 @@
         }
       }
     },
-    "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj": {
+    "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Service\\obj\\",
+        "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Isac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Isac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -272,8 +272,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\Core\\Core.csproj"
+              "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\Core\\Core.csproj"
               }
             }
           }

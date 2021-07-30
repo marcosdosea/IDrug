@@ -10118,19 +10118,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Henrique\\.nuget\\packages\\": {}
+    "C:\\Users\\Isac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj",
+      "projectUniqueName": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj",
       "projectName": "IdrugWebTests",
-      "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj",
-      "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWebTests\\obj\\",
+      "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWebTests\\IdrugWebTests.csproj",
+      "packagesPath": "C:\\Users\\Isac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWebTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Isac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10144,8 +10144,8 @@
         "net5.0": {
           "targetAlias": ".NETCoreApp,Version=v5.0",
           "projectReferences": {
-            "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {
-              "projectPath": "C:\\Users\\Henrique\\Desktop\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj"
+            "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj": {
+              "projectPath": "C:\\Users\\Isac\\Desktop\\Testes\\IDrug\\Codigo\\IdrugWeb\\IdrugWeb.csproj"
             }
           }
         }
