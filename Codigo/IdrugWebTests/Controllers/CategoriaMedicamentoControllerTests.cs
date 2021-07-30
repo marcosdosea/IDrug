@@ -6,6 +6,8 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using IdrugWeb.Controllers;
 using Core.Service;
+using IdrugWeb.Mappers;
+using IdrugWeb.Models;
 
 namespace IdrugWeb.Controllers.Tests
 {
@@ -22,17 +24,17 @@ namespace IdrugWeb.Controllers.Tests
 			var mockService = new Mock<ICategoriaMedicamentoService>();
 
 			IMapper mapper = new MapperConfiguration(cfg =>
-				cfg.AddProfile(new AutorProfile())).CreateMapper();
+				cfg.AddProfile(new CategoriaMedicamentoProfile())).CreateMapper();
 
 			mockService.Setup(service => service.ObterTodos())
-				.Returns(GetTestAutores());
+				.Returns(GetTestCategoriaMedicamentos());
 			mockService.Setup(service => service.Obter(1))
 				.Returns(GetTargetAutor());
-			mockService.Setup(service => service.Editar(It.IsAny<Autor>()))
+			mockService.Setup(service => service.Editar(It.IsAny<CategoriaMedicamento>()))
 				.Verifiable();
-			mockService.Setup(service => service.Inserir(It.IsAny<Autor>()))
+			mockService.Setup(service => service.Inserir(It.IsAny<CategoriaMedicamento>()))
 				.Verifiable();
-			controller = new AutorController(mockService.Object, mapper);
+			controller = new CategoriaMedicamentoController(mockService.Object, mapper);
 		}
 
 		[TestMethod()]
@@ -44,8 +46,8 @@ namespace IdrugWeb.Controllers.Tests
 			// Assert
 			Assert.IsInstanceOfType(result, typeof(ViewResult));
 			ViewResult viewResult = (ViewResult)result;
-			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(List<AutorModel>));
-			List<AutorModel> lista = (List<AutorModel>)viewResult.ViewData.Model;
+			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(List<CategoriaMedicamentoModel>));
+			List<CategoriaMedicamentoModel> lista = (List<CategoriaMedicamentoModel>)viewResult.ViewData.Model;
 			Assert.AreEqual(3, lista.Count);
 		}
 
@@ -58,8 +60,8 @@ namespace IdrugWeb.Controllers.Tests
 			// Assert
 			Assert.IsInstanceOfType(result, typeof(ViewResult));
 			ViewResult viewResult = (ViewResult)result;
-			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(AutorModel));
-			AutorModel autorModel = (AutorModel)viewResult.ViewData.Model;
+			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(CategoriaMedicamentoModel));
+			CategoriaMedicamentoModel autorModel = (CategoriaMedicamentoModel)viewResult.ViewData.Model;
 			Assert.AreEqual("Machado de Assis", autorModel.Nome);
 			Assert.AreEqual(DateTime.Parse("1839-06-21"), autorModel.AnoNascimento);
 		}
@@ -112,8 +114,8 @@ namespace IdrugWeb.Controllers.Tests
 			// Assert
 			Assert.IsInstanceOfType(result, typeof(ViewResult));
 			ViewResult viewResult = (ViewResult)result;
-			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(AutorModel));
-			AutorModel autorModel = (AutorModel)viewResult.ViewData.Model;
+			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(CategoriaMedicamentoModel));
+			CategoriaMedicamentoModel autorModel = (CategoriaMedicamentoModel)viewResult.ViewData.Model;
 			Assert.AreEqual("Machado de Assis", autorModel.Nome);
 			Assert.AreEqual(DateTime.Parse("1839-06-21"), autorModel.AnoNascimento);
 		}
@@ -122,7 +124,7 @@ namespace IdrugWeb.Controllers.Tests
 		public void EditTest_Get()
 		{
 			// Act
-			var result = controller.Edit(GetTargetAutorModel().IdAutor, GetTargetAutorModel());
+			var result = controller.Edit(GetTargetCategoriaMedicamentoModel().IdCategoriaMedicamento, GetTargetCategoriaMedicamentoModel());
 
 			// Assert
 			Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
@@ -140,8 +142,8 @@ namespace IdrugWeb.Controllers.Tests
 			// Assert
 			Assert.IsInstanceOfType(result, typeof(ViewResult));
 			ViewResult viewResult = (ViewResult)result;
-			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(AutorModel));
-			AutorModel autorModel = (AutorModel)viewResult.ViewData.Model;
+			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(CategoriaMedicamentoModel));
+			CategoriaMedicamentoModel autorModel = (CategoriaMedicamentoModel)viewResult.ViewData.Model;
 			Assert.AreEqual("Machado de Assis", autorModel.Nome);
 			Assert.AreEqual(DateTime.Parse("1839-06-21"), autorModel.AnoNascimento);
 		}
@@ -150,7 +152,7 @@ namespace IdrugWeb.Controllers.Tests
 		public void DeleteTest_Get()
 		{
 			// Act
-			var result = controller.Delete(GetTargetAutorModel().IdAutor, GetTargetAutorModel());
+			var result = controller.Delete(GetTargetCategoriaMedicamentoModel().IdCategoriaMedicamento, GetTargetCategoriaMedicamentoModel());
 
 			// Assert
 			Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
@@ -159,19 +161,19 @@ namespace IdrugWeb.Controllers.Tests
 			Assert.AreEqual("Index", redirectToActionResult.ActionName);
 		}
 
-		private static AutorModel GetNewAutor()
+		private static CategoriaMedicamentoModel GetNewAutor()
 		{
-			return new AutorModel
+			return new CategoriaMedicamentoModel
 			{
-				IdAutor = 4,
+				IdCategoriaMedicamento = 4,
 				Nome = "Ian Sommerville",
 				AnoNascimento = DateTime.Parse("1951-02-23")
 			};
 
 		}
-		private static Autor GetTargetAutor()
+		private static CategoriaMedicamento GetTargetCategoriaMedicamento()
 		{
-			return new Autor
+			return new CategoriaMedicamento
 			{
 				IdAutor = 1,
 				Nome = "Machado de Assis",
@@ -179,9 +181,9 @@ namespace IdrugWeb.Controllers.Tests
 			};
 		}
 
-		private static AutorModel GetTargetAutorModel()
+		private static CategoriaMedicamentoModel GetTargetCategoriaMedicamentoModel()
 		{
-			return new AutorModel
+			return new CategoriaMedicamentoModel
 			{
 				IdAutor = 2,
 				Nome = "Machado de Assis",
@@ -189,23 +191,23 @@ namespace IdrugWeb.Controllers.Tests
 			};
 		}
 
-		private static IEnumerable<Autor> GetTestAutores()
+		private static IEnumerable<CategoriaMedicamento> GetTestAutores()
 		{
-			return new List<Autor>
+			return new List<CategoriaMedicamento>
 			{
-				new Autor
+				new CategoriaMedicamento
 				{
 					IdAutor = 1,
 					Nome = "Graciliano Ramos",
 					AnoNascimento = DateTime.Parse("1892-10-27")
 				},
-				new Autor
+				new CategoriaMedicamento
 				{
 					IdAutor = 2,
 					Nome = "Machado de Assis",
 					AnoNascimento = DateTime.Parse("1839-06-21")
 				},
-				new Autor
+				new CategoriaMedicamento
 				{
 					IdAutor = 3,
 					Nome = "Marcos Dósea",

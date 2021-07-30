@@ -5,6 +5,8 @@ using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Service;
 using Moq;
+using Core;
+using IdrugWeb.Models;
 
 namespace IdrugWeb.Controllers.Tests
 {
@@ -140,7 +142,7 @@ namespace IdrugWeb.Controllers.Tests
 			Assert.IsInstanceOfType(result, typeof(ViewResult));
 			ViewResult viewResult = (ViewResult)result;
 			Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(AutorModel));
-			AutorModel autorModel = (AutorModel)viewResult.ViewData.Model;
+			MedicamentoModel autorModel = (MedicamentoModel)viewResult.ViewData.Model;
 			Assert.AreEqual("Machado de Assis", autorModel.Nome);
 			Assert.AreEqual(DateTime.Parse("1839-06-21"), autorModel.AnoNascimento);
 		}
@@ -158,11 +160,11 @@ namespace IdrugWeb.Controllers.Tests
 			Assert.AreEqual("Index", redirectToActionResult.ActionName);
 		}
 
-		private static AutorModel GetNewAutor()
+		private static MedicamentoModel GetNewAutor()
 		{
-			return new AutorModel
+			return new MedicamentoModel
 			{
-				IdAutor = 4,
+				IdMedicamento = 4,
 				Nome = "Ian Sommerville",
 				AnoNascimento = DateTime.Parse("1951-02-23")
 			};
@@ -178,9 +180,9 @@ namespace IdrugWeb.Controllers.Tests
 			};
 		}
 
-		private static AutorModel GetTargetAutorModel()
+		private static MedicamentoModel GetTargetAutorModel()
 		{
-			return new AutorModel
+			return new MedicamentoModel
 			{
 				IdAutor = 2,
 				Nome = "Machado de Assis",
@@ -188,11 +190,11 @@ namespace IdrugWeb.Controllers.Tests
 			};
 		}
 
-		private static IEnumerable<Autor> GetTestAutores()
+		private static IEnumerable<Medicamento> GetTestAutores()
 		{
-			return new List<Autor>
+			return new List<Medicamento>
 			{
-				new Autor
+				new Medicamento
 				{
 					IdAutor = 1,
 					Nome = "Graciliano Ramos",

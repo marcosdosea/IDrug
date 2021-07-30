@@ -218,3 +218,12 @@ C:\Users\Henrique\Desktop\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,versi
 C:\Users\Henrique\Desktop\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\ref\IdrugWebTests.dll
 C:\Users\Henrique\Desktop\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.pdb
 C:\Users\Henrique\Desktop\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.genruntimeconfig.cache
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\bin\Debug\.netcoreapp,version=v5.0\CoverletSourceRootsMapping
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.csproj.AssemblyReference.cache
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.AssemblyInfoInputs.cache
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.AssemblyInfo.cs
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.csproj.CoreCompileInputs.cache
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.dll
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\ref\IdrugWebTests.dll
+C:\Users\Isac\Desktop\Testes\IDrug\Codigo\IdrugWebTests\obj\Debug\.netcoreapp,version=v5.0\IdrugWebTests.pdb
