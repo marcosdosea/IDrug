@@ -1,9 +1,4 @@
-﻿using Core.DTO;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Core.Service
+﻿namespace Core.Service
 {
     public interface IDisponibilizarMedicamentoService
     {
@@ -13,12 +8,12 @@ namespace Core.Service
 
         Medicamentodisponivel Obter(int idDisponibilizacaoMedicamento);
 
-       // IEnumerable<Medicamentodisponivel> ObterPorNome(string nome);
+        // IEnumerable<Medicamentodisponivel> ObterPorNome(string nome);
 
         IEnumerable<Medicamentodisponivel> ObterTodos();
 
         void Remover(int idDisponibilizacaoMedicamento);
 
-       // IEnumerable<DisponibilizarMedicamentoDTO> ObterPorNomeOrdenadoDescending(string nome);
+        // IEnumerable<DisponibilizarMedicamentoDTO> ObterPorNomeOrdenadoDescending(string nome);
     }
 }

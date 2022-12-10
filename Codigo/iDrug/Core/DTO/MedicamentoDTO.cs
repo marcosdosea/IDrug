@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Core.DTO
+﻿namespace Core.DTO
 {
     public class MedicamentoDTO
     {
@@ -13,6 +9,6 @@ namespace Core.DTO
         public string CodigoBarras { get; set; }
 
 
-        
+
     }
 }

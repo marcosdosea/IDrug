@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Core
+﻿namespace Core
 {
     public partial class Farmacia
     {

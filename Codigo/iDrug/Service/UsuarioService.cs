@@ -1,8 +1,5 @@
 ﻿using Core;
 using Core.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Service
 {
@@ -30,7 +27,7 @@ namespace Service
 
         public Usuario Obter(int idUsuario)
         {
-            IEnumerable<Usuario> usuarios = (IEnumerable<Usuario>)GetQuery().Where(usuarioModel => 
+            IEnumerable<Usuario> usuarios = (IEnumerable<Usuario>)GetQuery().Where(usuarioModel =>
             usuarioModel.Equals(idUsuario)
             );
             return usuarios.ElementAtOrDefault(0);

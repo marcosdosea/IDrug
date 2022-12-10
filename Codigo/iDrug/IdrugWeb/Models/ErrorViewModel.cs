@@ -1,5 +1,3 @@
-using System;
-
 namespace IdrugWeb.Models
 {
     public class ErrorViewModel

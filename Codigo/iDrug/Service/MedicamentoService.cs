@@ -1,10 +1,6 @@
 ﻿using Core;
 using Core.DTO;
 using Core.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Service
 {
@@ -17,7 +13,7 @@ namespace Service
             __context = context;
         }
 
-        
+
         /// <summary>
         /// Insere um novo medicamento na base de dados
         /// </summary>
@@ -74,9 +70,9 @@ namespace Service
         {
             return GetQuery();
         }
-        
 
-        
+
+
         /// <summary>
         /// Retorna o número de medicamentos cadastrados
         /// </summary>
@@ -121,7 +117,7 @@ namespace Service
                             Nome = medicamento.Nome
                         };
             return query;
-         }
+        }
 
     }
 }

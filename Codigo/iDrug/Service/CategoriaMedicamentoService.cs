@@ -1,10 +1,6 @@
 ﻿using Core;
 using Core.DTO;
 using Core.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Service
 {
@@ -64,7 +60,7 @@ namespace Service
             var query = from categoriaMedicamento in Categoriamedicamento select categoriaMedicamento;
             return query;
         }
-        
+
 
         /// <summary>
         /// Obtém todas as categorias de medicamentos

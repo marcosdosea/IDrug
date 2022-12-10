@@ -3,7 +3,6 @@ using Core;
 using Core.Service;
 using IdrugWeb.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace IdrugWeb.Controllers
 {

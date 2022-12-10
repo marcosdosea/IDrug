@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Core.Services
+﻿namespace Core.Services
 {
     public interface IUsuarioService
     {
