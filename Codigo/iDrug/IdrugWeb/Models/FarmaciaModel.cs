@@ -11,7 +11,7 @@ namespace IdrugWeb.Models
 
         [Display(Name = "Nome da Farmácia:")]
         [Required(ErrorMessage = "Nome da Faramácia requerido")]
-        [StringLength(60, MinimumLength = 5, ErrorMessage = "Nome da farmácia deve ter entre 3 e 60 caracteres")]
+        [StringLength(60, MinimumLength = 5, ErrorMessage = "Nome da farmácia deve ter entre 5 e 60 caracteres")]
         public string Nome { get; set; }
 
         [Display(Name = "CNPJ:")]
@@ -21,7 +21,7 @@ namespace IdrugWeb.Models
 
         [Display(Name = "Telefone:")]
         [Required(ErrorMessage = "Telefone requerido")]
-        [StringLength(13, ErrorMessage = "Todos os campos devem ser preenchidos")]
+        [RegularExpression(@"^(\([1-9]{2}\)|[1-9]{2}) ?(?:[2-8]|9[1-9])[0-9]{3}\-?[0-9]{4}$", ErrorMessage = "Exemplo de numero de telefone: (12)12345-6789")]
         public string Telefone { get; set; }
 
         [Display(Name = "CEP:")]
