@@ -10,42 +10,43 @@ namespace IdrugWeb.Models
         public int IdFarmacia { get; set; }
 
         [Display(Name = "Nome da Farmácia:")]
-        [Required(ErrorMessage = "Campo requerido")]
+        [Required(ErrorMessage = "Nome da Faramácia requerido")]
         [StringLength(60, MinimumLength = 5, ErrorMessage = "Nome da farmácia deve ter entre 3 e 60 caracteres")]
         public string Nome { get; set; }
 
         [Display(Name = "CNPJ:")]
-        [Required(ErrorMessage = "Campo requerido")]
-        [RegularExpression(@"([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})")]
+        [Required(ErrorMessage = "CNPJ requerido")]
+        [RegularExpression(@"([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})", ErrorMessage = "Digite um CNPJ válido")]
         public string Cnpj { get; set; }
 
         [Display(Name = "Telefone:")]
-        [Required(ErrorMessage = "Campo requerido")]
+        [Required(ErrorMessage = "Telefone requerido")]
         [StringLength(13, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Telefone { get; set; }
 
         [Display(Name = "CEP:")]
-        [Required(ErrorMessage = "Campo requerido")]
+        [Required(ErrorMessage = "CEP requerido")]
         [StringLength(6, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Cep { get; set; }
 
         [Display(Name = "Endereço:")]
-        [Required(ErrorMessage = "Campo requerido")]
+        [Required(ErrorMessage = "Endereço requerido")]
         [StringLength(60, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Logradouro { get; set; }
 
         [Display(Name = "Estado:")]
-        [Required(ErrorMessage = "Campo requerido")]
+        [Required(ErrorMessage = "Estado requerido")]
         [StringLength(2, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Estado { get; set; }
 
         [Display(Name = "Cidade:")]
-        [Required(ErrorMessage = "Campo requerido")]
+        [Required(ErrorMessage = "Cidade requerido")]
         [StringLength(25, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Cidade { get; set; }
 
+
         [Display(Name = "Bairro:")]
-        [Required(ErrorMessage = "Campo requerido")]
+        [Required(ErrorMessage = "Bairro requerido")]
         [StringLength(25, ErrorMessage = "Todos os campos devem ser preenchidos")]
         public string Bairro { get; set; }
 
