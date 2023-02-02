@@ -16,7 +16,7 @@ namespace IdrugWeb.Models
 
         [Display(Name = "CNPJ:")]
         [Required(ErrorMessage = "Campo requerido")]
-        [StringLength(14, ErrorMessage = "Todos os campos devem ser preenchidos")]
+        [RegularExpression(@"([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})")]
         public string Cnpj { get; set; }
 
         [Display(Name = "Telefone:")]
