@@ -89,7 +89,7 @@ namespace Core
                 entity.Property(e => e.Cnpj)
                     .IsRequired()
                     .HasColumnName("cnpj")
-                    .HasMaxLength(14)
+                    .HasMaxLength(18)
                     .IsUnicode(false);
 
                 entity.Property(e => e.Estado)
