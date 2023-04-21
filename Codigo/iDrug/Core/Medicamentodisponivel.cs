@@ -22,7 +22,7 @@
         public int QuantidadeReservada { get; set; }
         public int QuantidadeEntregue { get; set; }
         public int QuantidadeDisponivel { get; set; }
-        public byte[] Imagem { get; set; }
+        public byte[]? Imagem { get; set; }
 
         public virtual Farmacia IdFarmaciaNavigation { get; set; }
         public virtual Medicamento IdMedicamentoNavigation { get; set; }
