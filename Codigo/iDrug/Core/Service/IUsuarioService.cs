@@ -1,20 +1,19 @@
-﻿namespace Core.Services
+﻿namespace Core.Service;
+
+public interface IUsuarioService
 {
-    public interface IUsuarioService
-    {
-        public void Editar(Usuario usuario);
+    public void Editar(Usuario usuario);
 
-        public int Inserir(Usuario usuario);
+    public int Inserir(Usuario usuario);
 
-        public Usuario Obter(int idUsuario);
+    public Usuario Obter(int idUsuario);
 
-        public void Remover(int idUsuario);
+    public void Remover(int idUsuario);
 
-        IEnumerable<Usuario> ObterPorNome(string nome);
+    IEnumerable<Usuario> ObterPorNome(string nome);
 
-        IEnumerable<Usuario> ObterTodos();
+    IEnumerable<Usuario> ObterTodos();
 
-        IEnumerable<object> GetQuery();
+    IEnumerable<object> GetQuery();
 
-    }
 }

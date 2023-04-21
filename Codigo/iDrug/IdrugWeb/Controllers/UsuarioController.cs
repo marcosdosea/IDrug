@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Core;
-using Core.Services;
+using Core.Service;
 using IdrugWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 

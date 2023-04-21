@@ -1,6 +1,5 @@
 using Core;
 using Core.Service;
-using Core.Services;
 using IdrugWeb.Areas.Identity.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
@@ -62,6 +61,7 @@ builder.Services.AddTransient<ICategoriaMedicamentoService, CategoriaMedicamento
 builder.Services.AddTransient<IFarmaciaService, FarmaciaService>();
 builder.Services.AddTransient<IDisponibilizarMedicamentoService, DisponibilizarMedicamentoService>();
 builder.Services.AddTransient<IUsuarioService, UsuarioService>();
+builder.Services.AddTransient<ISolicitacaoMedicamentoService, SolicitacaoMedicamentoService>();
 
 // injecao dependencia mappers
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
