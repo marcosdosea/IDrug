@@ -1,7 +1,20 @@
-﻿@{
+﻿@model IEnumerable<IdrugWeb.Models.MedicamentoModel>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    
-</div>
+<tbody>
+    @foreach (var item in Model)
+    {
+        <div class="card">
+            <img src="https://sm.ign.com/ign_br/screenshot/default/link_t3cf.png" class="card-img-top" style="width: 200px; height: 200px">
+            <div class="card-body">
+                <h5>@item.Nome</h5>
+                <p>@item.Fabricante</p>
+                <p> R$50,00 </p>
+                <button>Solicitar</button>
+            </div>
+       </div>
+    }
+</tbody>
