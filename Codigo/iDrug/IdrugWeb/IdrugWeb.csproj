@@ -7,6 +7,26 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Controllers\NovaPasta\**" />
+	  <Content Remove="Controllers\NovaPasta\**" />
+	  <EmbeddedResource Remove="Controllers\NovaPasta\**" />
+	  <None Remove="Controllers\NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Views\Farmacia\Class.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Remove="Views\Farmacia\Index - Cópia.cshtml" />
+	  <Content Remove="Views\Farmacia\Solicitacoes.cshtml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Views\Farmacia\Solicitacoes.cshtml.css" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.11" />
 		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.11" />
@@ -18,7 +38,7 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 			<PrivateAssets>all</PrivateAssets>
 		</PackageReference>
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
 	</ItemGroup>
 
 	<ItemGroup>

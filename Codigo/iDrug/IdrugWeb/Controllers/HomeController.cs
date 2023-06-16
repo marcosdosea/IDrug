@@ -1,5 +1,8 @@
-﻿using IdrugWeb.Models;
+﻿using AutoMapper;
+using Core.Service;
+using IdrugWeb.Models;
 using Microsoft.AspNetCore.Mvc;
+using Service;
 using System.Diagnostics;
 
 namespace IdrugWeb.Controllers
@@ -7,18 +10,29 @@ namespace IdrugWeb.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        IMedicamentoService _medicamentoService;
+        IMapper _mapper;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IMedicamentoService medicamentoService, ILogger<HomeController> logger, IMapper mapper)
         {
+            _medicamentoService = medicamentoService;
             _logger = logger;
+            _mapper = mapper;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var listaMedicamentos = _medicamentoService.ObterTodos();
+            var listaMedicamentosModel = _mapper.Map<List<MedicamentoModel>>(listaMedicamentos);
+            return View(listaMedicamentosModel);
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Painel()
         {
             return View();
         }

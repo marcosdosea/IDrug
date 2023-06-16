@@ -1,0 +1,78 @@
+﻿@model IdrugWeb.Models.SolicitacaoMedicamentoModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>SolicitacaoMedicamentoModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.idSolicitacaoMedicamento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.idSolicitacaoMedicamento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.idDisponibilizacaoMedicamento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.idDisponibilizacaoMedicamento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.idUsuario)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.idUsuario)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.quantidadeSolicitada)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.quantidadeSolicitada)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.statusSolicitacaoMedicamento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.statusSolicitacaoMedicamento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.quantidadeEntregue)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.quantidadeEntregue)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.prazoEntrega)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.prazoEntrega)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dataSolicitacao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dataSolicitacao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.dataEntrega)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.dataEntrega)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.cpf)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cpf)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.idSolicitacaoMedicamento }) |
+    <a asp-action="Index">Back to List</a>
+</div>

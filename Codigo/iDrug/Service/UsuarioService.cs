@@ -1,5 +1,5 @@
 ﻿using Core;
-using Core.Services;
+using Core.Service;
 
 namespace Service
 {

@@ -33,12 +33,6 @@ namespace IdrugWeb.Models
         [Display(Name = "Quantidade")]
         public string Quantidade { get; set; }
 
-        [Display(Name = "Validade - Mês")]
-        public String ValidadeMes { get; set; }
-
-        [Display(Name = "Validade - Ano")]
-        public int ValidadeAno { get; set; }
-
         [Display(Name = "Status")]
         public string StatusMedicamento { get; set; }
 

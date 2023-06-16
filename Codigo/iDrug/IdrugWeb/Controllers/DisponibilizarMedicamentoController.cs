@@ -4,6 +4,7 @@ using Core.Service;
 using IdrugWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using NuGet.Protocol;
 
 namespace IdrugWeb.Controllers
 {
@@ -59,61 +60,7 @@ namespace IdrugWeb.Controllers
             if (ModelState.IsValid)
             {
                 var disponibilizacao = _mapper.Map<Medicamentodisponivel>(disponibilizarMedicamentoModel);
-
-                var mesValidade = disponibilizacao.DataVencimento.Month;
-
-                if (mesValidade == 01)
-                {
-                    disponibilizacao.ValidadeMes = "Janeiro";
-                }
-                else if (mesValidade == 02)
-                {
-                    disponibilizacao.ValidadeMes = "Fevereiro";
-                }
-                else if (mesValidade == 03)
-                {
-                    disponibilizacao.ValidadeMes = "Março";
-                }
-                else if (mesValidade == 04)
-                {
-                    disponibilizacao.ValidadeMes = "Abril";
-                }
-                else if (mesValidade == 05)
-                {
-                    disponibilizacao.ValidadeMes = "Maio";
-                }
-                else if (mesValidade == 06)
-                {
-                    disponibilizacao.ValidadeMes = "Junho";
-                }
-                else if (mesValidade == 07)
-                {
-                    disponibilizacao.ValidadeMes = "Julho";
-                }
-                else if (mesValidade == 08)
-                {
-                    disponibilizacao.ValidadeMes = "Agosto";
-                }
-                else if (mesValidade == 09)
-                {
-                    disponibilizacao.ValidadeMes = "Setembro";
-                }
-                else if (mesValidade == 10)
-                {
-                    disponibilizacao.ValidadeMes = "Outubro";
-                }
-                else if (mesValidade == 11)
-                {
-                    disponibilizacao.ValidadeMes = "Novembro";
-                }
-                else if (mesValidade == 12)
-                {
-                    disponibilizacao.ValidadeMes = "Dezembro";
-                }
-
-                var anoValidade = disponibilizacao.DataVencimento.Year;
-                disponibilizacao.ValidadeAno = anoValidade;
-
+                //Console.WriteLine(disponibilizacao.ToJson());
                 _disponibilizarMedicamentoService.Inserir(disponibilizacao);
             }
 

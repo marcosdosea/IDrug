@@ -94,5 +94,12 @@ namespace IdrugWeb.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpGet]
+        public ActionResult Painel()
+        {
+            return View();
+        }
+        
     }
 }

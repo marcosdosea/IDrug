@@ -1,0 +1,90 @@
+﻿.card-produto {
+    margin: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.list-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.botao-solicitar {
+    position: relative;
+    width: -webkit-fill-available;
+    background-color: deepskyblue;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px; /* Valor de padding ajustado */
+}
+
+.text-valor {
+    font-weight: bold;
+    color: green;
+}
+
+.text-validade {
+    color: red;
+}
+
+.banner {
+    height: 30vh;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.categorias-barra {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.categorias-lista {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.categoria-item {
+    cursor: pointer;
+    color: black
+}
+
+    .categoria-item::after {
+        content: "";
+        display: block;
+        width: 0;
+        height: 2px;
+        background-color: black;
+        transition: width 0.3s ease;
+    }
+
+    .categoria-item:hover::after {
+        background-color: black;
+        width: 100%;
+    }

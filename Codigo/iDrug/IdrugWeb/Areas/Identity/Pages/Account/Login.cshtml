@@ -5,13 +5,12 @@
     ViewData["Title"] = "Log in";
 }
 
-<h1>Já possuo Cadastro</h1>
 <div class="row">
     <div class="col-md-6">
-        <div class="col-md-8">
+        <div class="col-md-8" style="height:550px">
             <section>
                 <form id="account" method="post">
-                    <h4>Faça o login.</h4>
+                    <h3>Faça o login.</h3>
                     <div asp-validation-summary="All" class="text-danger"></div>
                     <div class="form-group">
                         <label asp-for="Input.Email"></label>
@@ -31,8 +30,8 @@
                             </label>
                         </div>
                     </div>
-                    <div class="form-group text-center">
-                        <button type="submit" class="btn btn-primary h-75">Faça seu login</button>
+                    <div class="form-group text-center" >
+                        <button type="submit" class="btn h-75 w-75 text-white" style="border-radius:20px; background-color:#66A615">Entrar</button>
                     </div>
                     <div class="form-group">
                         <p>
@@ -47,39 +46,28 @@
         </div>
     </div>
     <div class="col-md-6">
-        <div class="col-md-8 bg-light text-center" style="height: 320px;">
-            <section>
-                <h4>Não possue cadastro?</h4>
-                <img class="w-50 mt-4" style="font-family: Brush Script MT, Brush Script Std, cursive" src="~/assets/img/logo01.jpg" />
-                <div class="form-group text-center mt-4">
-                    <button type="submit" class="btn btn-primary" onclick="window.location.href='/Identity/Account/Register'">Cadastre-se</button>
-                </div>
+        <div class="col-md-8 bg-light text-center" style="height: 550px;">
 
-                @{
-                    /*if ((Model.ExternalLogins?.Count ?? 0) == 0)
-                    {
-                        <div>
-                            <p>
-                                There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                                for details on setting up this ASP.NET application to support logging in via external services.
-                            </p>
-                        </div>
-                    }
-                    else
-                    {
-                        <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                            <div>
-                                <p>
-                                    @foreach (var provider in Model.ExternalLogins)
-                                    {
-                                        <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
-                                    }
-                                </p>
-                            </div>
-                        </form>
-                    }*/
-                }
-            </section>
+            <img class="w-30 mt-4" src="~/assets/img/usuarioIDRUG.png" alt="ícone de usuário" />
+            <h4>Não possui cadastro?</h4>
+            <p>
+                Cadastre-se para receber novidades e finalizar sua solicitação.
+                A seguir você informará seus dados para continuar o processo de compra.
+            </p>
+            <div class="form-group text-center mt-4">
+                <button type="submit" class="btn btn-primary w-75 text-white" style="border-radius:20px; background-color:#2984EF" onclick="window.location.href='/Identity/Account/Register'" alt="botão cadastre-se">Cadastre-se</button>
+            </div>
+            <hr />
+            <img class="w-20 mt-4" src="~/assets/img/farmaciaIDRUG.png" alt="ícone de farmácia" />
+            <h5>Deseja ser uma farmácia parceira?</h5>
+            <p>Conheça um pouco mais sobre a platarforma iDrug e como pode ser útil para sua farmácia</p>
+
+            <div class="form-group text-center mt-4">
+                <button type="submit" class="btn btn-primary w-75 text-white" style="border-radius:20px; background-color:#004595" onclick="window.location.href='/Identity/Account/Register'" alt="botão cadastre sua farmácia">Cadastre sua farmácia</button>
+            </div> @*Redireconar para o local certo*@
+
+
+
         </div>
     </div>
 </div>

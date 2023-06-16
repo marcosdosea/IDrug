@@ -1,7 +1,35 @@
-﻿@{
+﻿@model IEnumerable<IdrugWeb.Models.MedicamentoModel>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    
+<div class="categorias-barra">
+    <ul class="categorias-lista">
+        <li class="categoria-item">Categoria 1</li>
+        <li class="categoria-item">Categoria 2</li>
+        <li class="categoria-item">Categoria 3</li>
+        <li class="categoria-item">Categoria 4</li>
+        <li class="categoria-item">Categoria 5</li>
+    </ul>
+</div>
+
+<div class="banner">
+    <a href="https://exemplo.com"><img src="https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629_960_720.jpg" class="banner-img" alt="Banner"></a>
+</div>
+
+<div class="list-cards">
+    @foreach (var item in Model)
+    {
+        <div class="card-produto">
+            <img src="https://sm.ign.com/ign_br/screenshot/default/link_t3cf.png" class="card-img-top" style="width: 200px; height: 200px">
+            <hr class="no-margin">
+            <div class="card-body">
+                <h5>@item.Nome</h5>
+                <p class="text-validade">VALIDADE: 23/06</p>
+                <p class="text-valor"> R$50,00 </p>
+                <button class="botao-solicitar">Solicitar</button>
+            </div>
+        </div>
+    }
 </div>

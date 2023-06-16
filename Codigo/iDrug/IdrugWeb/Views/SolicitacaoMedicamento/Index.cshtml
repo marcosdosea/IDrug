@@ -1,0 +1,89 @@
+﻿@model IEnumerable<IdrugWeb.Models.SolicitacaoMedicamentoModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idSolicitacaoMedicamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idDisponibilizacaoMedicamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.idUsuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantidadeSolicitada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.statusSolicitacaoMedicamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.quantidadeEntregue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.prazoEntrega)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dataSolicitacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dataEntrega)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cpf)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idSolicitacaoMedicamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.idDisponibilizacaoMedicamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.idUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantidadeSolicitada)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.statusSolicitacaoMedicamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantidadeEntregue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.prazoEntrega)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dataSolicitacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dataEntrega)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cpf)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.idSolicitacaoMedicamento }) |
+                @Html.ActionLink("Details", "Details", new {id=item.idSolicitacaoMedicamento}) |
+                    @Html.ActionLink("Delete", "Delete", new {id=item.idSolicitacaoMedicamento})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
