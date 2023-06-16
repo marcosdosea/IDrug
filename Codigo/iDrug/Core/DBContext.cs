@@ -231,14 +231,6 @@ namespace Core
                     .HasColumnType("enum('RESERVADO','DISPONIVEL','INDISPONIVEL')")
                     .HasDefaultValueSql("'DISPONIVEL'");
 
-                entity.Property(e => e.ValidadeAno)
-                    .IsRequired()
-                    .HasColumnName("validadeAno")
-                    .HasMaxLength(45)
-                    .IsUnicode(false);
-
-                entity.Property(e => e.ValidadeMes).HasColumnName("validadeMes");
-
                 entity.HasOne(d => d.IdFarmaciaNavigation)
                     .WithMany(p => p.Medicamentodisponivel)
                     .HasForeignKey(d => d.IdFarmacia)

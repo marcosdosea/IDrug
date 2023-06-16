@@ -14,6 +14,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Views\Farmacia\Class.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Content Remove="Views\Farmacia\Index - Cópia.cshtml" />
 	  <Content Remove="Views\Farmacia\Solicitacoes.cshtml" />
 	</ItemGroup>

@@ -10,10 +10,11 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3" style="background-color:#1B4980">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img style="font-family: Brush Script MT, Brush Script Std, cursive" src="~/assets/img/logo01.jpg" />iDrug
+                    <img src="~/assets/img/idrug-logo.png" /> 
+                    <p style=" font-family: Brush Script MT, Brush Script Std, cursive;"> iDrug </p>
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -23,8 +24,6 @@
 
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav mr-auto">
-
-
                         <partial name="_LoginPartial" />
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
