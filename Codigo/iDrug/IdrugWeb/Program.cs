@@ -2,6 +2,7 @@ using Core;
 using Core.Service;
 using IdrugWeb.Areas.Identity.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Service;
@@ -65,6 +66,7 @@ builder.Services.AddTransient<ISolicitacaoMedicamentoService, SolicitacaoMedicam
 
 // injecao dependencia mappers
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 
 var app = builder.Build();
 

@@ -1,4 +1,4 @@
-﻿@model IdrugWeb.Models.DisponibilizarMedicamentoModel
+@model IdrugWeb.Models.DisponibilizarMedicamentoModel
 
 @{ ViewData["Title"] = "Nova Disponibilização"; }
 
@@ -9,7 +9,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form method="post" asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for=" IdMedicamento" class="control-label"></label>
@@ -56,23 +56,19 @@
                 <span asp-validation-for="DataVencimento" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="QuantidadeReservada" class="control-label"></label>
-                <input asp-for="QuantidadeReservada" class="form-control" />
-                <span asp-validation-for="QuantidadeReservada" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="QuantidadeEntregue" class="control-label"></label>
-                <input asp-for="QuantidadeEntregue" class="form-control" />
-                <span asp-validation-for="QuantidadeEntregue" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <label asp-for="QuantidadeDisponivel" class="control-label"></label>
                 <input asp-for="QuantidadeDisponivel" class="form-control" />
                 <span asp-validation-for="QuantidadeDisponivel" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Imagem">Imagem:</label>
+                <input type="file" class="form-control-file" id="imagem" name="Imagem" asp-for="Imagem">
+                <span asp-validation-for="Imagem" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <input type="submit" value="Cadastrar" class="btn btn-primary" />
             </div>
+            
         </form>
     </div>
 </div>

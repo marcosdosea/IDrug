@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Core;
 
 public partial class Medicamentodisponivel
