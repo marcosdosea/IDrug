@@ -1,5 +1,12 @@
 ﻿using Core;
 using Core.Service;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using MySql.Data.MySqlClient;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using System;
+using System.IO;
+using System.Data.Common;
 
 namespace Service
 {
@@ -18,10 +25,32 @@ namespace Service
         /// </summary>
         /// <param name="medicamento">dados do medicamento</param>
         /// <returns></returns>
+        /// 
+        //ANOTAÇÂO: Aqui ele está chegando com os bytes da imagem, porem esses bytes não estão sendo inseridos
         public int Inserir(Medicamentodisponivel medicamento)
         {
             __context.Add(medicamento);
             __context.SaveChanges();
+
+            //Salvando imagem
+
+            MySqlConnection connection = new MySqlConnection("server=localhost;port=3306;user=root;password=123456;database=bd_idrug");
+            
+                connection.Open();
+
+                string query = $"UPDATE bd_idrug.medicamentodisponivel set imagem = @blobData where idDisponibilizacaoMedicamento = @id";
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@blobData", medicamento.Imagem);
+                    command.Parameters.AddWithValue("@id", medicamento.IdDisponibilizacaoMedicamento);
+                    command.ExecuteNonQuery();
+                }
+
+                connection.Close();
+
+
+        
+
             return medicamento.IdDisponibilizacaoMedicamento;
         }
 

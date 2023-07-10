@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Org.BouncyCastle.Utilities;
+using System.ComponentModel.DataAnnotations;
 
 namespace IdrugWeb.Models
 {
@@ -50,6 +51,7 @@ namespace IdrugWeb.Models
         [Display(Name = "Quantidade Disponível")]
         public int QuantidadeDisponivel { get; set; }
 
-        //imagem
+        [Display(Name = "Imagem")]
+        public byte[]? Imagem { get; set; }
     }
 }

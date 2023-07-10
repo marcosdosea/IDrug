@@ -5,6 +5,7 @@ using IdrugWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using NuGet.Protocol;
+using System.IO;
 
 namespace IdrugWeb.Controllers
 {
@@ -55,13 +56,20 @@ namespace IdrugWeb.Controllers
         // POST: DisponibilizarMedicamentoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(DisponibilizarMedicamentoModel disponibilizarMedicamentoModel)
+        public async Task<ActionResult> CreateAsync(DisponibilizarMedicamentoModel disponibilizarMedicamentoModel, IFormFile imagem)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid && imagem != null && imagem.Length > 0)
             {
-                var disponibilizacao = _mapper.Map<Medicamentodisponivel>(disponibilizarMedicamentoModel);
-                //Console.WriteLine(disponibilizacao.ToJson());
-                _disponibilizarMedicamentoService.Inserir(disponibilizacao);
+                var medicamentoParaDisponibilizar = _mapper.Map<Medicamentodisponivel>(disponibilizarMedicamentoModel);
+                medicamentoParaDisponibilizar.QuantidadeEntregue = 0;
+                medicamentoParaDisponibilizar.QuantidadeReservada = 0;
+                //Adicionando imagem no model
+                using (var memoryStream = new MemoryStream())
+                {
+                    await imagem.CopyToAsync(memoryStream);
+                    medicamentoParaDisponibilizar.Imagem = memoryStream.ToArray();
+                }
+                _disponibilizarMedicamentoService.Inserir(medicamentoParaDisponibilizar);
             }
 
             return RedirectToAction(nameof(Index));
