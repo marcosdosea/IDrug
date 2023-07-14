@@ -28,7 +28,7 @@ namespace IdrugWeb.Controllers
         // GET: SolicitacaoMedicamentoController
         public ActionResult Index()
         {
-            var listaSolicitacoes = _solicitacaoMedicamentoService.ObterTodos();
+            var listaSolicitacoes = _solicitacaoMedicamentoService.ObterPorCPF("12345678909");
             var listaSolicitacoesModel = _mapper.Map<List<Solicitacaomedicamento>>(listaSolicitacoes);
             return View(listaSolicitacoesModel);
         }
@@ -56,6 +56,7 @@ namespace IdrugWeb.Controllers
             {
                 var solicitacao = _mapper.Map<Solicitacaomedicamento>(solicitacaoMedicamentoModel);
                 solicitacao.DataSolicitacao = DateTime.Now;
+                solicitacao.Cpf = "12345678909";
                 _solicitacaoMedicamentoService.Inserir(solicitacao);
             }
 

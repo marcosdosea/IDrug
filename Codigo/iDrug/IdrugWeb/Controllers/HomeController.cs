@@ -10,11 +10,13 @@ namespace IdrugWeb.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        IDisponibilizarMedicamentoService _disponibilizarMedicamentoService;
         IMedicamentoService _medicamentoService;
         IMapper _mapper;
 
-        public HomeController(IMedicamentoService medicamentoService, ILogger<HomeController> logger, IMapper mapper)
+        public HomeController(IDisponibilizarMedicamentoService DisponibilizarMedicamentoService,IMedicamentoService medicamentoService, ILogger<HomeController> logger, IMapper mapper)
         {
+            _disponibilizarMedicamentoService = DisponibilizarMedicamentoService;
             _medicamentoService = medicamentoService;
             _logger = logger;
             _mapper = mapper;
@@ -22,9 +24,15 @@ namespace IdrugWeb.Controllers
 
         public IActionResult Index()
         {
-            var listaMedicamentos = _medicamentoService.ObterTodos();
-            var listaMedicamentosModel = _mapper.Map<List<MedicamentoModel>>(listaMedicamentos);
-            return View(listaMedicamentosModel);
+            var DisponibilizarMedicamento = _disponibilizarMedicamentoService.ObterTodos();
+            var listaMedicamentosDisponiveis = _mapper.Map<List<DisponibilizarMedicamentoModel>>(DisponibilizarMedicamento);
+            var Medicamentos = _medicamentoService.ObterTodos();
+
+            var disponibilizarMedicamento = new DisponibilizarMedicamentoViewModel(listaMedicamentosDisponiveis, Medicamentos);
+
+            return View(disponibilizarMedicamento);
+
+
         }
 
         public IActionResult Privacy()
@@ -42,5 +50,6 @@ namespace IdrugWeb.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }

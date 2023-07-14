@@ -1,4 +1,4 @@
-﻿@model IEnumerable<IdrugWeb.Models.MedicamentoModel>
+﻿@model IdrugWeb.Models.DisponibilizarMedicamentoViewModel
 
 @{
     ViewData["Title"] = "Home Page";
@@ -19,15 +19,16 @@
 </div>
 
 <div class="list-cards">
-    @foreach (var item in Model)
+    @foreach (var item in Model.listaDisponibilizacaoMedicamentosModel)
     {
+        var medicamento = Model.listaMedicamento.FirstOrDefault(med => med.IdMedicamento == item.IdMedicamento);
         <div class="card-produto">
             <img src="https://sm.ign.com/ign_br/screenshot/default/link_t3cf.png" class="card-img-top" style="width: 200px; height: 200px">
             <hr class="no-margin">
             <div class="card-body">
-                <h5>@item.Nome</h5>
-                <p class="text-validade">VALIDADE: 23/06</p>
-                <p class="text-valor"> R$50,00 </p>
+                <h5>@(medicamento!=null ? medicamento.Nome : "Nome não identificado")</h5>
+                <p class="text-validade">VALIDADE: @(item.DataVencimento.ToShortDateString())</p>
+                <p class="text-valor"> R$00,00 </p>
                 <button class="botao-solicitar">Solicitar</button>
             </div>
         </div>

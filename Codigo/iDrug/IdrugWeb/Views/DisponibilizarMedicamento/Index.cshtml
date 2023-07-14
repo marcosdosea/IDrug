@@ -1,4 +1,4 @@
-﻿@model IEnumerable<IdrugWeb.Models.DisponibilizarMedicamentoModel>
+﻿@model IdrugWeb.Models.DisponibilizarMedicamentoViewModel
 
 @{ ViewData["Title"] = "Disponibilizações"; }
 
@@ -20,33 +20,34 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.IdDisponibilizacaoMedicamento)
+                Nome
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataInicioDisponibilizacao)
+                Inicio da Disponibilização
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Lote)
+                Lote
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataVencimento)
+                Data de Vencimento
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.QuantidadeDisponivel)
+                Quantidade Disponivel
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.StatusMedicamento)
+                Status
             </th>
             <th>
             </th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.listaDisponibilizacaoMedicamentosModel)
         {
-<tr>
+            var medicamento = Model.listaMedicamento.FirstOrDefault(med => med.IdMedicamento == item.IdMedicamento);
+            <tr>
     <td>
-        @Html.DisplayFor(modelItem => item.IdDisponibilizacaoMedicamento)
+            @(medicamento != null ? medicamento.Nome : "");
     </td>
     <td>
         @Html.DisplayFor(modelItem => item.DataInicioDisponibilizacao)
