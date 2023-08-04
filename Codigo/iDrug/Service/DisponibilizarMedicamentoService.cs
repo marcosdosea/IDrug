@@ -14,10 +14,13 @@ namespace Service
     {
 
         private readonly DBContext __context;
+        private MySqlConnection connection;
+
 
         public DisponibilizarMedicamentoService(DBContext context)
         {
             __context = context;
+            connection = new MySqlConnection("server=localhost;port=3306;user=root;password=123456;database=bd_idrug");
         }
 
         /// <summary>
@@ -34,7 +37,6 @@ namespace Service
 
             //Salvando imagem
 
-            MySqlConnection connection = new MySqlConnection("server=localhost;port=3306;user=root;password=123456;database=bd_idrug");
             
                 connection.Open();
 
@@ -78,6 +80,23 @@ namespace Service
         }
 
 
+        private byte[] getImageFromId(int id)
+        {
+            string query = $"SELECT imagem FROM bd_idrug.medicamentodisponivel where idDisponibilizacaoMedicamento = @id";
+            using (MySqlCommand command = new MySqlCommand(query, connection))
+            {
+                command.Parameters.AddWithValue("@id", id);
+                MySqlDataReader rdr = command.ExecuteReader();
+
+                while (rdr.Read())
+            {
+                //Console.WriteLine(rdr[0]+" -- "+rdr[1]);
+            }
+
+                return (byte[])rdr[0];
+            }
+        }
+
         /// <summary>
         /// Consulta genérica aos dados da disponibilização do medicamento
         /// </summary>
@@ -86,6 +105,15 @@ namespace Service
         {
             IQueryable<Medicamentodisponivel> Farmacia = __context.Medicamentodisponivel;
             var query = from medicamento in Farmacia select medicamento;
+            connection.Open();
+
+            query.ForEachAsync(item =>
+            {
+                item.Imagem = getImageFromId(item.IdDisponibilizacaoMedicamento);
+            });
+
+            connection.Close();
+
             return query;
         }
 

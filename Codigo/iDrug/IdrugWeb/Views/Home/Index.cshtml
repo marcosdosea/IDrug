@@ -1,4 +1,5 @@
-﻿@model IdrugWeb.Models.DisponibilizarMedicamentoViewModel
+﻿@using System.Text.Json
+@model IdrugWeb.Models.DisponibilizarMedicamentoViewModel
 
 @{
     ViewData["Title"] = "Home Page";
@@ -22,15 +23,21 @@
     @foreach (var item in Model.listaDisponibilizacaoMedicamentosModel)
     {
         var medicamento = Model.listaMedicamento.FirstOrDefault(med => med.IdMedicamento == item.IdMedicamento);
-        <div class="card-produto">
-            <img src="https://sm.ign.com/ign_br/screenshot/default/link_t3cf.png" class="card-img-top" style="width: 200px; height: 200px">
-            <hr class="no-margin">
-            <div class="card-body">
-                <h5>@(medicamento!=null ? medicamento.Nome : "Nome não identificado")</h5>
-                <p class="text-validade">VALIDADE: @(item.DataVencimento.ToShortDateString())</p>
-                <p class="text-valor"> R$00,00 </p>
-                <button class="botao-solicitar">Solicitar</button>
+        string jsonstring = Html.Raw(JsonSerializer.Serialize(item)).ToString();
+        <form asp-controller="SolicitacaoMedicamento" asp-action="RealizarSolicitacao" method="post">
+            <div class="card-produto">
+                <img src="https://droguerialabastilla.com/cdn/shop/products/7706127000574_1200x1200.jpg" class="card-img-top" style="width: 200px; height: 200px">
+                <hr class="no-margin">
+                <div class="card-body">
+                    <h5>@(medicamento != null ? medicamento.Nome : "Nome não identificado")</h5>
+                    <p class="text-validade">VALIDADE: @(item.IdDisponibilizacaoMedicamento)</p><!--item.DataVencimento.ToShortDateString()-->
+                    <p class="text-valor"> R$0,00 </p>
+
+                    <input type="hidden" name="medicamentoDisponivel" value="@jsonstring" />
+                    <button type="submit" class="botao-solicitar">Solicitar</button>
+                </div>
             </div>
-        </div>
-    }
+        </form>
+     }
 </div>
+

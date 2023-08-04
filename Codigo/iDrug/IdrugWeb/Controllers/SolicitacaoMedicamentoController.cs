@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Service;
 using System.Security.Policy;
+using System.Text.Json;
 
 namespace IdrugWeb.Controllers
 {
@@ -24,13 +25,61 @@ namespace IdrugWeb.Controllers
             _mapper = mapper;
         }
 
+        [HttpPost]
+        public ActionResult RealizarSolicitacao(string medicamentoDisponivel)
+        {
+            try
+            {
+                var disponibilizarMedicamento = JsonSerializer.Deserialize<DisponibilizarMedicamentoModel>(medicamentoDisponivel);
+                Solicitacaomedicamento solicitacao = new Solicitacaomedicamento();
+                solicitacao.IdDisponibilizacaoMedicamento = disponibilizarMedicamento.IdDisponibilizacaoMedicamento;
+
+                //DEFININDO ESTATICAMENTE PADRÕES DA SOLICITAÇÃO DE PRODUTO UNICO
+                solicitacao.IdUsuario = 1; //ID DE USUARIO MOCKADO ENQUANTO O LOGIN NÃO ESTÁ FUNCIONANDO
+                solicitacao.Cpf = "12345678909";
+                solicitacao.DataSolicitacao = DateTime.Now;
+                solicitacao.QuantidadeSolicitada = 1;
+                solicitacao.StatusSolicitacaoMedicamento = "EM ANDAMENTO";
+                solicitacao.PrazoEntrega = solicitacao.DataSolicitacao.AddDays(3); // 3 dias depois da data de solicitacao;
+                solicitacao.DataEntrega = DateTime.Now;
+                solicitacao.QuantidadeEntregue = 1;
+
+                _solicitacaoMedicamentoService.Inserir(solicitacao);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAErro ao desserializar JSON: " + ex.Message);
+            }
+
+            
+
+            return RedirectToAction("Index", "Home");
+        }
 
         // GET: SolicitacaoMedicamentoController
         public ActionResult Index()
         {
+            List<SolicitacaoMedicamentoModel> lista_medicamentos_solicitados = new List<SolicitacaoMedicamentoModel>();
+
+            var listaSolicitacoes = _solicitacaoMedicamentoService.ObterTodos();
+            var listaSolicitacoesOrganizada = _mapper.Map<List<SolicitacaoMedicamentoModel>>(listaSolicitacoes);
+
+            lista_medicamentos_solicitados.AddRange(listaSolicitacoesOrganizada);
+
+            return View(listaSolicitacoesOrganizada);
+        }
+
+        public ActionResult IndexUsuario()
+        {
+            List<SolicitacaoMedicamentoModel> lista_medicamentos_solicitados = new List<SolicitacaoMedicamentoModel>();
+
             var listaSolicitacoes = _solicitacaoMedicamentoService.ObterPorCPF("12345678909");
-            var listaSolicitacoesModel = _mapper.Map<List<Solicitacaomedicamento>>(listaSolicitacoes);
-            return View(listaSolicitacoesModel);
+            var listaSolicitacoesOrganizada = _mapper.Map<List<SolicitacaoMedicamentoModel>>(listaSolicitacoes);
+
+            lista_medicamentos_solicitados.AddRange(listaSolicitacoesOrganizada);
+
+            return View(lista_medicamentos_solicitados);
         }
 
         // GET: SolicitacaoMedicamentoController/Details/5
@@ -99,7 +148,7 @@ namespace IdrugWeb.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, SolicitacaoMedicamentoModel solicitacao)
         {
-           _solicitacaoMedicamentoService.Remover(id);
+            _solicitacaoMedicamentoService.Remover(id);
             return RedirectToAction(nameof(Index));
         }
     }

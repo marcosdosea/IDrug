@@ -25,7 +25,7 @@ namespace IdrugWeb.Controllers
         public IActionResult Index()
         {
             var DisponibilizarMedicamento = _disponibilizarMedicamentoService.ObterTodos();
-            var listaMedicamentosDisponiveis = _mapper.Map<List<DisponibilizarMedicamentoModel>>(DisponibilizarMedicamento);
+            List<DisponibilizarMedicamentoModel> listaMedicamentosDisponiveis = _mapper.Map<List<DisponibilizarMedicamentoModel>>(DisponibilizarMedicamento);
             var Medicamentos = _medicamentoService.ObterTodos();
 
             var disponibilizarMedicamento = new DisponibilizarMedicamentoViewModel(listaMedicamentosDisponiveis, Medicamentos);

@@ -6,25 +6,25 @@ namespace IdrugWeb.Models
     {
         public int idSolicitacaoMedicamento { get; set; }
 
-        [Display(Name = "Código")]
+        [Display(Name = "ID Disponibilização medicamento")]
         [Key]
         [Required(ErrorMessage = "Código da disponibilização é obrigatório")]
         public int idDisponibilizacaoMedicamento { get; set; }
 
-        [Display(Name = "Código")]
+        [Display(Name = "id Usuario")]
         [Key]
         [Required(ErrorMessage = "Código do usuario é obrigatório")]
         public int idUsuario { get; set; }
 
-        [Display(Name = "Quantidade")]
+        [Display(Name = "Quantidade Solicitada")]
         [Required(ErrorMessage = "Campo requerido")]
         public int quantidadeSolicitada { get; set; }
 
-        [Display(Name = "Quantidade")]
+        [Display(Name = "Status")]
         [Required(ErrorMessage = "Campo requerido")]
         public string statusSolicitacaoMedicamento { get; set; }
 
-        [Display(Name = "Quantidade")]
+        [Display(Name = "Quantidade Entregue")]
         [Required(ErrorMessage = "Campo requerido")]
         public int quantidadeEntregue { get; set; }
 
